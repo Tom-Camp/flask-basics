@@ -38,6 +38,7 @@ DATABASE_URL=postgresql://user:pass@host/dbname
 class Config:
     SQLALCHEMY_DATABASE_URI = os.environ.get("DATABASE_URL", "sqlite:///.../app.db")
     SECRET_KEY = os.environ.get("SECRET_KEY", "dev")
+    GOOGLE_APPLICATION_CREDENTIALS = {...}  # service-account JSON
 
 class DevelopmentConfig(Config): DEBUG = True
 class TestingConfig(Config): TESTING = True; SQLALCHEMY_DATABASE_URI = "sqlite:///:memory:"
@@ -56,6 +57,23 @@ fallback default for local dev.
 2. If it's a secret, document it in `.env.example` (see below) — don't hardcode
    the real value anywhere in the class.
 3. Access it anywhere in the app via `current_app.config["YOUR_KEY"]`.
+
+`GOOGLE_APPLICATION_CREDENTIALS` contains the parsed service-account JSON.
+The `GOOGLE_APPLICATION_CREDENTIALS` environment variable may point to a
+different JSON file; otherwise the app looks for
+`GOOGLE_APPLICATION_CREDENTIALS.json` in the project root. Use it for Google
+API clients, for example:
+
+```python
+from flask import current_app
+
+credentials_info = current_app.config["GOOGLE_APPLICATION_CREDENTIALS"]
+project_id = credentials_info["project_id"]
+```
+
+This service-account configuration is not used for Google user sign-in.
+`GOOGLE_CLIENT_ID` and `GOOGLE_CLIENT_SECRET` remain separate web OAuth
+credentials and belong in `.env`.
 
 ## Precedence, if you're running through the `flask` CLI
 

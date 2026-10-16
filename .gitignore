@@ -9,6 +9,7 @@ venv/
 
 # Environment / secrets
 .env
+GOOGLE_APPLICATION_CREDENTIALS.json
 
 # SQLite database + Flask instance folder contents
 instance/
@@ -22,3 +23,4 @@ htmlcov/
 .DS_Store
 .idea/
 .vscode/
+CLAUDE.md

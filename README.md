@@ -17,6 +17,7 @@ should provide you with an understanding of Flask concepts such as:
 - **[SQLAlchemy](https://www.sqlalchemy.org/)** (via Flask-SQLAlchemy) — ORM / database access
 - **[Flask-Migrate](https://flask-migrate.readthedocs.io/)** (Alembic) — database schema migrations
 - **[Flask-WTF](https://flask-wtf.readthedocs.io/)** — HTML form handling/CSRF
+- **[Flask-Login](https://flask-login.readthedocs.io/)** + **[Authlib](https://docs.authlib.org/)** — user sessions, Google sign-in
 - **[pytest](https://docs.pytest.org/)** — test runner
 - **[uv](https://docs.astral.sh/uv/)** — dependency management + running commands (this repo does not use plain `pip`/`venv` directly)
 - **SQLite** — the database, for now (see [`docs/database.md`](docs/database.md))
@@ -103,6 +104,7 @@ in [`docs/`](./docs/):
 | [`docs/templates.md`](docs/templates.md)         | Base layout, nav/footer partials, and how the static-page template works                                    |
 | [`docs/adding-models.md`](docs/adding-models.md) | How to add a SQLAlchemy model                                                                               |
 | [`docs/forms.md`](docs/forms.md)                 | WTForms/Flask-WTF: what they are, CSRF protection, and building a form-backed route                         |
+| [`docs/authentication.md`](docs/authentication.md) | Google sign-in setup, the OAuth flow, and protecting routes with Flask-Login                              |
 | [`docs/database.md`](docs/database.md)           | Where the DB lives per environment, and the Flask-Migrate/Alembic workflow for schema changes               |
 | [`docs/testing.md`](docs/testing.md)             | How to write tests, the fixtures available, and a real gotcha about shared SQLAlchemy metadata across tests |
 | [`docs/improvements.md`](docs/improvements.md)   | Running list of known gaps, caveats, and good next-step tasks across the project                            |
@@ -119,19 +121,22 @@ Rough workflow for adding a feature end-to-end:
 3. Add tests for both — [`docs/testing.md`](docs/testing.md)
 4. Run `uv run pytest` before considering it done
 
-Before committing your work, run `uv run pre-commit install` once (this also installs the commit-msg hook — see below).
+Before committing your work, run `uv run prek install --overwrite` once (this also installs the commit-msg hook
+and replaces any existing pre-commit runner — see below).
 After that, the hooks in [`.pre-commit-config.yaml`](.pre-commit-config.yaml) run automatically on every commit:
 [ruff](https://docs.astral.sh/ruff/) (lint + format),
 [mypy](https://mypy-lang.org/) (type checking), [bandit](https://bandit.readthedocs.io/en/latest/)
 (security linting), [pip-audit](https://pypi.org/project/pip-audit/) (dependency vulnerability scanning), and some
-general file format checkers. `pre-commit` and `commitizen` are both installed automatically via `uv sync`
+general file format checkers. `prek` and `commitizen` are both installed automatically via `uv sync`
 (they're in the `dev` dependency group) — no separate global install needed.
+Run `uv run prek run --all-files` to run the hooks manually. The configuration keeps its
+`.pre-commit-config.yaml` filename because prek supports the same format and hook repositories.
 
 ### Commit messages: Commitizen + Conventional Commits
 
 This repo enforces [Conventional Commits](https://www.conventionalcommits.org/) formatted commit messages, via
 [Commitizen](https://commitizen-tools.github.io/commitizen/) running as a `commit-msg` hook. Once you've run
-`pre-commit install`, any commit whose message doesn't match the required format is **rejected**:
+`uv run prek install --overwrite`, any commit whose message doesn't match the required format is **rejected**:
 
 ```
 <type>(<optional scope>): <description>
