@@ -44,14 +44,14 @@ def login():
     return render_template(
         "pages/login.html",
         next=request.args.get("next", ""),
-        google_configured=bool(current_app.config["GOOGLE_CLIENT_ID"]),
+        google_configured=bool(current_app.config["GOOGLE_APPLICATION_CREDENTIALS"]),
     )
 
 
 @bp.route("/login/google")
 def login_google():
     """Start the OAuth flow: redirect the browser to Google's consent screen."""
-    if not current_app.config["GOOGLE_CLIENT_ID"]:
+    if not current_app.config["GOOGLE_APPLICATION_CREDENTIALS"]:
         abort(503, "Google sign-in is not configured (set GOOGLE_CLIENT_ID).")
 
     next_url = request.args.get("next")
