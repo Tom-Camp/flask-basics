@@ -1,5 +1,5 @@
-# See https://pre-commit.com for more information
-# See https://pre-commit.com/hooks.html for more hooks
+# Managed by prek: https://prek.j178.dev/
+# prek supports the pre-commit configuration format and hook repositories.
 default_install_hook_types: [pre-commit, commit-msg]
 
 repos:
@@ -27,18 +27,18 @@ repos:
       - id: mypy
         args: ["--install-types", "--non-interactive"]
         additional_dependencies:
-          [
-            "alembic",
-            "authlib",
-            "flask",
-            "flask_login",
-            "flask_migrate",
-            "flask_sqlalchemy",
-            "flask_wtf",
-            "python-dotenv",
-            "python-slugify",
-            "pytest",
-          ]
+          - alembic
+          - authlib
+          - flask
+          - flask-login
+          - flask-migrate
+          - flask-sqlalchemy
+          - flask-wtf
+          - python-dotenv
+          - python-slugify
+          - pytest
+          - types-Authlib
+          - types-Flask-Migrate
 
   - repo: https://github.com/PyCQA/bandit
     rev: 1.9.3

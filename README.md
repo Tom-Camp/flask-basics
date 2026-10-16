@@ -121,19 +121,22 @@ Rough workflow for adding a feature end-to-end:
 3. Add tests for both — [`docs/testing.md`](docs/testing.md)
 4. Run `uv run pytest` before considering it done
 
-Before committing your work, run `uv run pre-commit install` once (this also installs the commit-msg hook — see below).
+Before committing your work, run `uv run prek install --overwrite` once (this also installs the commit-msg hook
+and replaces any existing pre-commit runner — see below).
 After that, the hooks in [`.pre-commit-config.yaml`](.pre-commit-config.yaml) run automatically on every commit:
 [ruff](https://docs.astral.sh/ruff/) (lint + format),
 [mypy](https://mypy-lang.org/) (type checking), [bandit](https://bandit.readthedocs.io/en/latest/)
 (security linting), [pip-audit](https://pypi.org/project/pip-audit/) (dependency vulnerability scanning), and some
-general file format checkers. `pre-commit` and `commitizen` are both installed automatically via `uv sync`
+general file format checkers. `prek` and `commitizen` are both installed automatically via `uv sync`
 (they're in the `dev` dependency group) — no separate global install needed.
+Run `uv run prek run --all-files` to run the hooks manually. The configuration keeps its
+`.pre-commit-config.yaml` filename because prek supports the same format and hook repositories.
 
 ### Commit messages: Commitizen + Conventional Commits
 
 This repo enforces [Conventional Commits](https://www.conventionalcommits.org/) formatted commit messages, via
 [Commitizen](https://commitizen-tools.github.io/commitizen/) running as a `commit-msg` hook. Once you've run
-`pre-commit install`, any commit whose message doesn't match the required format is **rejected**:
+`uv run prek install --overwrite`, any commit whose message doesn't match the required format is **rejected**:
 
 ```
 <type>(<optional scope>): <description>
