@@ -28,7 +28,16 @@
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% for category, message in messages %}
                 <div class="mb-4 rounded-md border px-4 py-3 text-sm
-                    {{ 'border-red-200 bg-red-50 text-red-800' if category == 'error' else 'border-gray-200 bg-white text-gray-800' }}">
+                    {% if category == 'error' %}
+                        'border-red-200 bg-red-50 text-red-800'
+                    {% else if category == 'warning' %}
+                        'border-yellow-200 bg-yellow-50 text-yellow-800'
+                    {% else if category == 'success' %}
+                        'border-green-200 bg-green-50 text-green-800'
+                    {% else %}
+                        'border-blue-200 bg-blue-50 text-blue-800'
+                    {% endif %}
+                ">
                     {{ message }}
                 </div>
             {% endfor %}

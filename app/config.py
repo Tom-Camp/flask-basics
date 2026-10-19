@@ -15,6 +15,8 @@ class Config:
     SECRET_KEY = os.environ.get("SECRET_KEY", "dev")
     FLASK_APP = os.environ.get("FLASK_APP", "app")
     FLASK_DEBUG = os.environ.get("FLASK_DEBUG", False)
+    UPLOAD_FOLDER = os.environ.get("UPLOAD_FOLDER", "uploads")
+
     # OAuth 2.0 "Web application" client credentials from Google Cloud
     # Console (APIs & Services -> Credentials). Sign-in uses these, not
     # GOOGLE_API_KEY. See docs/authentication.md.

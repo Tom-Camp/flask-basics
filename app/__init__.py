@@ -3,8 +3,11 @@ from datetime import datetime, timezone
 
 from flask import Flask
 
+from app.utils import logger_config as logger_config
+
 from app.config import config
 from app.extensions import csrf, dbase, login_manager, migrate, oauth
+from app.utils.helpers import BASE_DIR
 
 
 def create_app(config_name=None):
@@ -16,11 +19,15 @@ def create_app(config_name=None):
     # Ensure the instance folder exists so the default sqlite file can be created.
     os.makedirs(app.instance_path, exist_ok=True)
 
+    app.config["UPLOAD_FOLDER"] = BASE_DIR / app.config["UPLOAD_FOLDER"]
+    app.config["UPLOAD_FOLDER"].mkdir(parents=True, exist_ok=True)
+
     dbase.init_app(app)
     migrate.init_app(app, dbase)
     login_manager.init_app(app)
     csrf.init_app(app)
     oauth.init_app(app)
+    app.logger.info("Config loaded")
     # Authlib reads GOOGLE_CLIENT_ID / GOOGLE_CLIENT_SECRET from app.config
     # (it looks up "<NAME>_CLIENT_ID"), and discovers Google's endpoints and
     # signing keys from the OpenID Connect metadata URL on first use.
@@ -32,9 +39,11 @@ def create_app(config_name=None):
 
     from app.main import bp as main_bp
     from app.routes.auth_routes import bp as auth_bp
+    from app.routes.resume_routes import bp as resume_bp
 
     app.register_blueprint(main_bp)
     app.register_blueprint(auth_bp)
+    app.register_blueprint(resume_bp)
 
     @app.context_processor
     def inject_globals():

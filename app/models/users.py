@@ -1,11 +1,15 @@
 from datetime import datetime
+from typing import TYPE_CHECKING
 
 from flask_login import UserMixin
 from sqlalchemy import DateTime, String
-from sqlalchemy.orm import Mapped, mapped_column
+from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.extensions import dbase, login_manager
 from app.models.base import BaseModel
+
+if TYPE_CHECKING:
+    from app.models.resume import Resume
 
 
 class User(UserMixin, BaseModel):
@@ -27,6 +31,10 @@ class User(UserMixin, BaseModel):
     name: Mapped[str | None] = mapped_column(String(255))
     picture: Mapped[str | None] = mapped_column(String(2048))
     last_login_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
+    resumes: Mapped[list["Resume"]] = relationship(
+        back_populates="user",
+        cascade="all, delete-orphan",
+    )
 
     def __repr__(self) -> str:
         return f"<User {self.id} {self.email!r}>"
@@ -34,7 +42,8 @@ class User(UserMixin, BaseModel):
 
 @login_manager.user_loader
 def load_user(user_id: str) -> User | None:
-    """Reload the user from the id Flask-Login stored in the session.
+    """
+    Reload the user from the id Flask-Login stored in the session.
 
     Must return None (not raise) for an unknown id, e.g. a session cookie
     that outlived its user — Flask-Login then treats the request as anonymous.

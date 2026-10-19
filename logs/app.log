@@ -1,0 +1,1319 @@
+2026-10-16 15:04:56,905 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 15:04:56,905 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 15:04:56,905 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 15:04:56,905 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 15:04:56,905 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 15:04:56,906 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 15:04:56,906 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 15:06:08,867 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 15:06:08,867 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 15:06:08,867 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 15:06:08,867 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 15:06:08,867 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 15:06:08,867 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 15:06:08,868 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 15:06:08,921 | INFO     | - | app:30 - Config loaded
+2026-10-16 15:06:08,934 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 15:06:08,934 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 15:09:58,066 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 15:09:58,066 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 15:09:58,066 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 15:09:58,066 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 15:09:58,066 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 15:09:58,066 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 15:09:58,066 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 15:09:58,118 | INFO     | - | app:30 - Config loaded
+2026-10-16 15:09:58,130 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 15:09:58,130 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 15:12:20,779 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 15:12:20,779 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 15:12:20,779 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 15:12:20,779 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 15:12:20,779 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 15:12:20,779 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 15:12:20,779 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 15:12:20,831 | INFO     | - | app:30 - Config loaded
+2026-10-16 15:12:20,844 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 15:12:20,844 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:10:47,753 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:10:47,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:10:47,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:10:47,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:10:47,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:10:47,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:10:47,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:10:47,806 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:10:47,822 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 17:10:47,822 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:10:52,570 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:10:52] "GET / HTTP/1.1" 200 -
+2026-10-16 17:10:52,573 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:10:52] "GET / HTTP/1.1" 200 -
+2026-10-16 17:10:52,801 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:10:52] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-16 17:10:52,801 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:10:52] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-16 17:10:52,804 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:10:52] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-16 17:10:52,806 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:10:52] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-16 17:10:59,940 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:10:59] "[33mGET /upload HTTP/1.1[0m" 404 -
+2026-10-16 17:13:21,813 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:13:21,813 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:13:21,814 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:13:21,814 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:13:21,814 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:13:21,814 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:13:21,814 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:13:21,867 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:13:23,611 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 17:13:23,611 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:13:28,283 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:13:28] "[33mGET /upload HTTP/1.1[0m" 404 -
+2026-10-16 17:13:48,164 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:13:48] "[33mGET /resume/upload HTTP/1.1[0m" 404 -
+2026-10-16 17:16:17,915 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:16:17,915 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:16:17,915 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:16:17,915 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:16:17,915 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:16:17,915 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:16:17,915 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:16:17,964 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:16:19,189 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 17:16:19,189 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:16:21,083 | ERROR    | - | app:875 - Exception on /resume/upload [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 2435, in _determine_joins
+    self.primaryjoin = join_condition(
+                       ~~~~~~~~~~~~~~^
+        self.parent_persist_selectable,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        consider_as_foreign_keys=consider_as_foreign_keys,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/sql/util.py", line 122, in join_condition
+    return Join._join_condition(
+           ~~~~~~~~~~~~~~~~~~~~^
+        a,
+        ^^
+    ...<2 lines>...
+        consider_as_foreign_keys=consider_as_foreign_keys,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/sql/selectable.py", line 1452, in _join_condition
+    raise exc.NoForeignKeysError(
+    ...<3 lines>...
+    )
+sqlalchemy.exc.NoForeignKeysError: Can't find any foreign key relationships between 'users' and 'resumes'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/resume_routes.py", line 73, in resume
+    resume_data = dbase.session.query(Resume).filter(Resume.id == resume_id).first()
+                  ~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/scoping.py", line 1665, in query
+    return self._proxied.query(*entities, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2963, in query
+    return self._query_cls(entities, self, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 277, in __init__
+    self._set_entities(entities)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/query.py", line 290, in _set_entities
+    coercions.expect(
+    ~~~~~~~~~~~~~~~~^
+        roles.ColumnsClauseRole,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        post_inspect=True,
+        ^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/sql/coercions.py", line 389, in expect
+    insp._post_inspect
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 1234, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+                                           ~~~~~~~~~^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 2734, in _post_inspect
+    self._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 2411, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 4228, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 4269, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 2428, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/interfaces.py", line 595, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 1658, in do_init
+    self._setup_join_conditions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 1896, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+                                ~~~~~~~~~~~~~^
+        parent_persist_selectable=self.parent.persist_selectable,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<14 lines>...
+        can_be_synced_fn=self._columns_are_mapped,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 2322, in __init__
+    self._determine_joins()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 2456, in _determine_joins
+    raise sa_exc.NoForeignKeysError(
+    ...<7 lines>...
+    ) from nfe
+sqlalchemy.exc.NoForeignKeysError: Could not determine join condition between parent/child tables on relationship User.resumes - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-10-16 17:16:21,097 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:16:21] "[35m[1mGET /resume/upload HTTP/1.1[0m" 500 -
+2026-10-16 17:17:26,171 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:17:26,171 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:17:26,171 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:17:26,171 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:17:26,171 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:17:26,171 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:17:26,171 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:17:26,206 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:17:27,345 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 17:17:27,345 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:17:30,599 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:17:30] "[33mGET /resume/upload HTTP/1.1[0m" 404 -
+2026-10-16 17:18:08,877 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:18:08,877 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:18:08,877 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:18:08,877 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:18:08,877 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:18:08,877 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:18:08,877 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:18:08,914 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:18:10,012 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 17:18:10,012 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:18:11,586 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:18:11] "[33mGET /resume/upload HTTP/1.1[0m" 404 -
+2026-10-16 17:18:35,120 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:18:35,121 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:18:35,121 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:18:35,121 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:18:35,121 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:18:35,121 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:18:35,121 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:18:35,162 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:18:56,938 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:18:56,938 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:18:56,938 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:18:56,938 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:18:56,938 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:18:56,938 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:18:56,938 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:18:56,972 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:19:10,885 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:19:10,885 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:19:10,885 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:19:10,885 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:19:10,885 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:19:10,885 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:19:10,885 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:19:10,920 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:19:11,964 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 17:19:11,964 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:19:24,668 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:19:24] "[33mGET /resume/upload HTTP/1.1[0m" 404 -
+2026-10-16 17:19:42,421 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:19:42,421 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:19:42,421 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:19:42,421 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:19:42,421 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:19:42,421 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:19:42,421 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:19:42,502 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:19:44,035 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 17:19:44,035 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:19:45,814 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:19:45] "[33mGET /resume/upload HTTP/1.1[0m" 404 -
+2026-10-16 17:20:27,969 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-16 17:20:27,969 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-16 17:20:27,969 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-16 17:20:27,969 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-16 17:20:27,969 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-16 17:20:27,969 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-16 17:20:27,969 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-16 17:20:28,054 | INFO     | - | app:30 - Config loaded
+2026-10-16 17:20:28,753 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-16 17:20:28,753 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-16 17:20:31,829 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [16/Oct/2026 17:20:31] "[33mGET /resume/upload HTTP/1.1[0m" 404 -
+2026-10-19 10:54:07,336 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 10:54:07,337 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 10:54:07,337 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 10:54:07,337 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 10:54:07,337 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 10:54:07,337 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 10:54:07,337 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 10:54:07,387 | INFO     | - | app:30 - Config loaded
+2026-10-19 10:54:07,840 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 10:54:07,840 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 10:54:11,071 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:54:11] "GET / HTTP/1.1" 200 -
+2026-10-19 10:54:11,199 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:54:11] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 10:54:11,199 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:54:11] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 10:54:17,625 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:54:17] "GET /upload HTTP/1.1" 200 -
+2026-10-19 10:54:17,719 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:54:17] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 10:54:17,721 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:54:17] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 10:54:39,754 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:54:39] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2026-10-19 10:54:39,866 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:54:39] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 10:58:50,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 10:58:50,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 10:58:50,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 10:58:50,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 10:58:50,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 10:58:50,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 10:58:50,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 10:58:50,770 | INFO     | - | app:30 - Config loaded
+2026-10-19 10:58:51,219 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 10:58:51,219 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 10:58:54,450 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:58:54] "GET /upload HTTP/1.1" 200 -
+2026-10-19 10:58:54,586 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:58:54] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 10:58:54,586 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:58:54] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 10:58:54,759 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:58:54] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-10-19 10:59:05,172 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:59:05] "GET /upload?resume_file=TomCampResume.pdf&submit=Submit HTTP/1.1" 200 -
+2026-10-19 10:59:05,193 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:59:05] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 10:59:05,193 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:59:05] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 10:59:30,312 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:59:30] "GET /upload?resume_file=TomCampResume.pdf&submit=Submit HTTP/1.1" 200 -
+2026-10-19 10:59:30,331 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:59:30] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 10:59:30,331 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 10:59:30] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 10:59:53,771 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 10:59:53,771 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 10:59:53,771 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 10:59:53,771 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 10:59:53,771 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 10:59:53,771 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 10:59:53,771 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 10:59:53,864 | INFO     | - | app:30 - Config loaded
+2026-10-19 10:59:54,645 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 10:59:54,645 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:00:00,082 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:00:00] "GET /upload?resume_file=TomCampResume.pdf&submit=Submit HTTP/1.1" 200 -
+2026-10-19 11:00:00,113 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:00:00] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:00:00,114 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:00:00] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:00:00,226 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:00:00] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-10-19 11:04:35,546 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:04:35,546 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:04:35,546 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:04:35,546 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:04:35,546 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:04:35,546 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:04:35,546 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:04:35,642 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:04:36,408 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:04:36,408 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:04:57,440 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:04:57] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:04:57,506 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:04:57] "GET /upload?resume_file=TomCampResume.pdf&submit=Submit HTTP/1.1" 200 -
+2026-10-19 11:04:57,509 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:04:57] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:04:57,510 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:04:57] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:04:57,669 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:04:57] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-10-19 11:05:10,276 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:05:10,276 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:05:10,276 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:05:10,276 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:05:10,276 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:05:10,276 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:05:10,276 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:05:10,371 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:05:11,155 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:05:11,155 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:05:14,236 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:05:14] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:05:14,273 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:05:14] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:05:14,274 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:05:14] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:05:14,466 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:05:14] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-10-19 11:05:40,037 | INFO     | - | app.ai.resume_parser:81 - resume_parse.start
+2026-10-19 11:05:41,134 | INFO     | - | httpx2:1923 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-10-19 11:05:41,143 | ERROR    | - | app:875 - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/models/google.py", line 980, in _generate_content
+    return await func(model=self._model_name, contents=contents, config=config)  # pyright: ignore[reportReturnType]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 8507, in generate_content
+    return await self._generate_content_with_continuation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, contents=contents, config=final_parsed_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 8346, in _generate_content_with_continuation
+    response = await self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, contents=contents, config=call_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 6944, in _generate_content
+    response = await self._api_client.async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'post', path, request_dict, http_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1885, in async_request
+    result = await self._async_request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        http_request=http_request, http_options=http_options, stream=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1818, in _async_request
+    return await self._async_retry(  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._async_request_once, http_request, stream
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1798, in _async_request_once
+    await errors.APIError.raise_for_async_response(client_response)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/errors.py", line 265, in raise_for_async_response
+    await cls.raise_error_async(status_code, response_json, response)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/errors.py", line 289, in raise_error_async
+    raise ServerError(status_code, response_json, response)
+google.genai.errors.ServerError: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/resume_routes.py", line 59, in process_resume
+    parsed_resume: ResumeData = current_app.ensure_sync(parse_resume_text)(file_text)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/asgiref/sync.py", line 332, in __call__
+    return call_result.result()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/asgiref/sync.py", line 372, in main_wrap
+    result = await awaitable
+             ^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/ai/resume_parser.py", line 82, in parse_resume_text
+    result = await _agent.run(f"Parse this resume:\n\n{text}")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/agent/abstract.py", line 678, in run
+    node = await agent_run.next(node)  # pyright: ignore[reportArgumentType]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 656, in next
+    return await self._run_node_with_hooks(node, self._stream_and_advance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 571, in _run_node_with_hooks
+    result = await lifecycle(node)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 551, in lifecycle
+    result = await step_fn(lifecycle_node)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 670, in _stream_and_advance
+    return await self._advance_graph(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 466, in _advance_graph
+    task = await self._graph_run.next(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 579, in next
+    return await anext(self)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 556, in __anext__
+    raise self._next.error
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 857, in _run_tracked_task
+    result = await self._run_task(t_)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 915, in _run_task
+    output = await node.call(step_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/step.py", line 253, in _call_node
+    return await node.run(GraphRunContext(state=ctx.state, deps=ctx.deps))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1397, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1765, in _make_request
+    model_response = await model_handler(request_context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1748, in model_handler
+    response = await self._recover_model_request_error(ctx, run_context, req_ctx, e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 2136, in _recover_model_request_error
+    raise error
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1734, in model_handler
+    response = await model_request(
+               ^^^^^^^^^^^^^^^^^^^^
+        req_ctx.model, request_context=req_ctx, run_context=run_context, on_progress=on_progress
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1231, in model_request
+    new_response = await model.request(
+                   ^^^^^^^^^^^^^^^^^^^^
+        messages, request_context.model_settings, request_context.model_request_parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/models/google.py", line 694, in request
+    response = await self._generate_content(messages, False, model_settings, model_request_parameters)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/models/google.py", line 982, in _generate_content
+    raise _map_api_error(e, self._model_name, self._provider.model_id_namespace) from e
+pydantic_ai.exceptions.ModelHTTPError: status_code: 503, model_name: gemini-3.1-flash-lite, body: {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+2026-10-19 11:05:41,161 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:05:41] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-10-19 11:05:56,368 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:05:56,368 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:05:56,368 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:05:56,368 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:05:56,368 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:05:56,368 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:05:56,368 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:05:56,422 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:08:48,612 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:08:48,612 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:08:48,612 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:08:48,612 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:08:48,612 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:08:48,612 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:08:48,612 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:08:48,649 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:08:49,008 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:08:49,008 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:08:52,756 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:08:52] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:08:54,802 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:08:54] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:08:54,803 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:08:54] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:09:12,017 | INFO     | - | app.ai.resume_parser:81 - resume_parse.start
+2026-10-19 11:09:12,273 | INFO     | - | httpx2:1923 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-10-19 11:09:12,275 | ERROR    | - | app:875 - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/models/google.py", line 980, in _generate_content
+    return await func(model=self._model_name, contents=contents, config=config)  # pyright: ignore[reportReturnType]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 8507, in generate_content
+    return await self._generate_content_with_continuation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, contents=contents, config=final_parsed_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 8346, in _generate_content_with_continuation
+    response = await self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, contents=contents, config=call_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 6944, in _generate_content
+    response = await self._api_client.async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'post', path, request_dict, http_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1885, in async_request
+    result = await self._async_request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        http_request=http_request, http_options=http_options, stream=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1818, in _async_request
+    return await self._async_retry(  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._async_request_once, http_request, stream
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1798, in _async_request_once
+    await errors.APIError.raise_for_async_response(client_response)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/errors.py", line 265, in raise_for_async_response
+    await cls.raise_error_async(status_code, response_json, response)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/errors.py", line 287, in raise_error_async
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/gemini-3.1-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/resume_routes.py", line 59, in process_resume
+    parsed_resume: ResumeData = current_app.ensure_sync(parse_resume_text)(file_text)
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/asgiref/sync.py", line 332, in __call__
+    return call_result.result()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/asgiref/sync.py", line 372, in main_wrap
+    result = await awaitable
+             ^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/ai/resume_parser.py", line 82, in parse_resume_text
+    result = await _agent.run(f"Parse this resume:\n\n{text}")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/agent/abstract.py", line 678, in run
+    node = await agent_run.next(node)  # pyright: ignore[reportArgumentType]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 656, in next
+    return await self._run_node_with_hooks(node, self._stream_and_advance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 571, in _run_node_with_hooks
+    result = await lifecycle(node)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 551, in lifecycle
+    result = await step_fn(lifecycle_node)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 670, in _stream_and_advance
+    return await self._advance_graph(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 466, in _advance_graph
+    task = await self._graph_run.next(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 579, in next
+    return await anext(self)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 556, in __anext__
+    raise self._next.error
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 857, in _run_tracked_task
+    result = await self._run_task(t_)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 915, in _run_task
+    output = await node.call(step_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/step.py", line 253, in _call_node
+    return await node.run(GraphRunContext(state=ctx.state, deps=ctx.deps))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1397, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1765, in _make_request
+    model_response = await model_handler(request_context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1748, in model_handler
+    response = await self._recover_model_request_error(ctx, run_context, req_ctx, e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 2136, in _recover_model_request_error
+    raise error
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1734, in model_handler
+    response = await model_request(
+               ^^^^^^^^^^^^^^^^^^^^
+        req_ctx.model, request_context=req_ctx, run_context=run_context, on_progress=on_progress
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1231, in model_request
+    new_response = await model.request(
+                   ^^^^^^^^^^^^^^^^^^^^
+        messages, request_context.model_settings, request_context.model_request_parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/models/google.py", line 694, in request
+    response = await self._generate_content(messages, False, model_settings, model_request_parameters)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/models/google.py", line 982, in _generate_content
+    raise _map_api_error(e, self._model_name, self._provider.model_id_namespace) from e
+pydantic_ai.exceptions.ModelHTTPError: status_code: 404, model_name: gemini-3.1-flash, body: {'error': {'code': 404, 'message': 'models/gemini-3.1-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}. Did you mean 'google:gemini-3.8-flash'?
+2026-10-19 11:09:12,285 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:09:12] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-10-19 11:12:32,334 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:12:32,334 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:12:32,334 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:12:32,334 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:12:32,334 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:12:32,334 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:12:32,334 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:12:32,370 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:12:32,704 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:12:32,705 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:13:51,042 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:13:51,043 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:13:51,043 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:13:51,043 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:13:51,043 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:13:51,043 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:13:51,043 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:13:51,080 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:13:51,465 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:13:51,466 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:14:00,600 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:14:00,601 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:14:00,601 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:14:00,601 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:14:00,601 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:14:00,601 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:14:00,601 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:14:00,639 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:14:01,023 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:14:01,023 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:14:05,432 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:14:05] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:14:05,566 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:14:05] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:14:05,567 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:14:05] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:14:15,113 | INFO     | - | app.ai.resume_parser:82 - resume_parse.start
+2026-10-19 11:14:15,442 | INFO     | - | httpx2:1923 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-10-19 11:14:15,446 | ERROR    | - | app.ai.resume_parser:88 - status_code: 404, model_name: gemini-3.1-flash, body: {'error': {'code': 404, 'message': 'models/gemini-3.1-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}. Did you mean 'google:gemini-3.8-flash'?
+2026-10-19 11:14:15,448 | ERROR    | - | app:875 - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/resume_routes.py", line 69, in process_resume
+    return redirect(url_for("resume.index", resume_id=new_resume.id))
+                                                      ^^^^^^^^^^
+UnboundLocalError: cannot access local variable 'new_resume' where it is not associated with a value
+2026-10-19 11:14:15,451 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:14:15] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-10-19 11:14:38,646 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:14:38,646 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:14:38,646 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:14:38,646 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:14:38,646 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:14:38,646 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:14:38,646 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:14:38,681 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:14:39,056 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:14:39,056 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:14:42,339 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:14:42] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:14:42,358 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:14:42] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:14:42,358 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:14:42] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:16:10,854 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:16:10,854 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:16:10,854 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:16:10,854 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:16:10,854 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:16:10,854 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:16:10,854 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:16:10,902 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:16:11,323 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:16:11,323 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:16:16,298 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:16:16] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:16:16,448 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:16:16] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:16:16,449 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:16:16] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:16:16,574 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:16:16] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-10-19 11:16:26,961 | INFO     | - | app.ai.resume_parser:82 - resume_parse.start
+2026-10-19 11:16:27,192 | INFO     | - | httpx2:1923 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash:generateContent "HTTP/1.1 404 Not Found"
+2026-10-19 11:16:27,196 | ERROR    | - | app.ai.resume_parser:88 - status_code: 404, model_name: gemini-3.1-flash, body: {'error': {'code': 404, 'message': 'models/gemini-3.1-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}. Did you mean 'google:gemini-3.8-flash'?
+2026-10-19 11:16:27,198 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:16:27] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2026-10-19 11:16:27,204 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:16:27] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:16:27,230 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:16:27] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:16:27,234 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:16:27] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:36:34,046 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:36:34,046 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:36:34,046 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:36:34,046 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:36:34,046 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:36:34,046 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:36:34,046 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:36:34,097 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:36:34,561 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:36:34,561 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:36:38,105 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:36:38] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:36:38,244 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:36:38] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:36:38,245 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:36:38] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:36:46,844 | INFO     | - | app.ai.resume_parser:82 - resume_parse.start
+2026-10-19 11:36:47,142 | INFO     | - | httpx2:1923 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.8-flash-lite:generateContent "HTTP/1.1 404 Not Found"
+2026-10-19 11:36:47,146 | ERROR    | - | app.ai.resume_parser:88 - status_code: 404, model_name: gemini-3.8-flash-lite, body: {'error': {'code': 404, 'message': 'models/gemini-3.8-flash-lite is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}. Did you mean 'google:gemini-3.5-flash-lite'?
+2026-10-19 11:36:47,149 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:36:47] "[32mPOST /upload HTTP/1.1[0m" 302 -
+2026-10-19 11:36:47,158 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:36:47] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:36:47,183 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:36:47] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:36:47,184 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:36:47] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:37:34,678 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:37:34,679 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:37:34,679 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:37:34,679 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:37:34,679 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:37:34,679 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:37:34,679 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:37:34,715 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:37:35,057 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:37:35,057 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:37:43,881 | INFO     | - | app.ai.resume_parser:82 - resume_parse.start
+2026-10-19 11:37:46,670 | INFO     | - | httpx2:1923 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-19 11:37:46,706 | INFO     | - | app.ai.resume_parser:86 - resume_parse.complete
+2026-10-19 11:37:46,708 | ERROR    | - | app:875 - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 2435, in _determine_joins
+    self.primaryjoin = join_condition(
+                       ~~~~~~~~~~~~~~^
+        self.parent_persist_selectable,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<2 lines>...
+        consider_as_foreign_keys=consider_as_foreign_keys,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/sql/util.py", line 122, in join_condition
+    return Join._join_condition(
+           ~~~~~~~~~~~~~~~~~~~~^
+        a,
+        ^^
+    ...<2 lines>...
+        consider_as_foreign_keys=consider_as_foreign_keys,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/sql/selectable.py", line 1452, in _join_condition
+    raise exc.NoForeignKeysError(
+    ...<3 lines>...
+    )
+sqlalchemy.exc.NoForeignKeysError: Can't find any foreign key relationships between 'users' and 'resumes'.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/resume_routes.py", line 61, in process_resume
+    new_resume = Resume(
+        filename=filename,
+        raw_data=parsed_resume.model_dump(),
+    )
+  File "<string>", line 4, in __init__
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/state.py", line 591, in _initialize_instance
+    manager.dispatch.init(self, args, kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/event/attr.py", line 516, in __call__
+    fn(*args, **kw)
+    ~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 4420, in _event_on_init
+    instrumenting_mapper._check_configure()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 2411, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 4228, in _configure_registries
+    _do_configure_registries(registries, cascade)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 4269, in _do_configure_registries
+    mapper._post_configure_properties()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/mapper.py", line 2428, in _post_configure_properties
+    prop.init()
+    ~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/interfaces.py", line 595, in init
+    self.do_init()
+    ~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 1658, in do_init
+    self._setup_join_conditions()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 1896, in _setup_join_conditions
+    self._join_condition = jc = JoinCondition(
+                                ~~~~~~~~~~~~~^
+        parent_persist_selectable=self.parent.persist_selectable,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<14 lines>...
+        can_be_synced_fn=self._columns_are_mapped,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 2322, in __init__
+    self._determine_joins()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/relationships.py", line 2456, in _determine_joins
+    raise sa_exc.NoForeignKeysError(
+    ...<7 lines>...
+    ) from nfe
+sqlalchemy.exc.NoForeignKeysError: Could not determine join condition between parent/child tables on relationship User.resumes - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+2026-10-19 11:37:46,716 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:37:46] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-10-19 11:45:29,562 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:45:29,563 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:45:29,563 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:45:29,563 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:45:29,563 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:45:29,563 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:45:29,563 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:45:29,610 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:45:52,924 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:45:52,924 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:45:52,924 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:45:52,924 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:45:52,924 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:45:52,924 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:45:52,924 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:47:41,277 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:47:41] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:47:41,593 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:47:41] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:47:41,593 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:47:41] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:47:49,823 | INFO     | - | app.ai.resume_parser:82 - resume_parse.start
+2026-10-19 11:47:49,829 | ERROR    | - | app:875 - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/resume_routes.py", line 59, in process_resume
+    parsed_resume: ResumeData | str = current_app.ensure_sync(parse_resume_text)(file_text)
+                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/asgiref/sync.py", line 332, in __call__
+    return call_result.result()
+           ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/asgiref/sync.py", line 372, in main_wrap
+    result = await awaitable
+             ^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/ai/resume_parser.py", line 84, in parse_resume_text
+    result = await _agent.run(f"Parse this resume:\n\n{text}")
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/agent/abstract.py", line 678, in run
+    node = await agent_run.next(node)  # pyright: ignore[reportArgumentType]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 656, in next
+    return await self._run_node_with_hooks(node, self._stream_and_advance)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 571, in _run_node_with_hooks
+    result = await lifecycle(node)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 551, in lifecycle
+    result = await step_fn(lifecycle_node)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 670, in _stream_and_advance
+    return await self._advance_graph(node)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/run.py", line 466, in _advance_graph
+    task = await self._graph_run.next(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 579, in next
+    return await anext(self)
+           ^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 556, in __anext__
+    raise self._next.error
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 857, in _run_tracked_task
+    result = await self._run_task(t_)
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/graph_builder.py", line 915, in _run_task
+    output = await node.call(step_context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_graph/step.py", line 253, in _call_node
+    return await node.run(GraphRunContext(state=ctx.state, deps=ctx.deps))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1397, in run
+    return await self._make_request(ctx)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1765, in _make_request
+    model_response = await model_handler(request_context)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1748, in model_handler
+    response = await self._recover_model_request_error(ctx, run_context, req_ctx, e)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 2136, in _recover_model_request_error
+    raise error
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1734, in model_handler
+    response = await model_request(
+               ^^^^^^^^^^^^^^^^^^^^
+        req_ctx.model, request_context=req_ctx, run_context=run_context, on_progress=on_progress
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/_agent_graph.py", line 1231, in model_request
+    new_response = await model.request(
+                   ^^^^^^^^^^^^^^^^^^^^
+        messages, request_context.model_settings, request_context.model_request_parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/models/google.py", line 694, in request
+    response = await self._generate_content(messages, False, model_settings, model_request_parameters)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/pydantic_ai/models/google.py", line 980, in _generate_content
+    return await func(model=self._model_name, contents=contents, config=config)  # pyright: ignore[reportReturnType]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 8507, in generate_content
+    return await self._generate_content_with_continuation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, contents=contents, config=final_parsed_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 8346, in _generate_content_with_continuation
+    response = await self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, contents=contents, config=call_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/models.py", line 6944, in _generate_content
+    response = await self._api_client.async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'post', path, request_dict, http_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1885, in async_request
+    result = await self._async_request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        http_request=http_request, http_options=http_options, stream=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1818, in _async_request
+    return await self._async_retry(  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._async_request_once, http_request, stream
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 413, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 184, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1791, in _async_request_once
+    client_response = await self._async_httpx_client.request(  # type: ignore[union-attr]
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1635, in request
+    return await self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1818, in send
+    response = await self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1846, in _send_handling_auth
+    response = await self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1881, in _send_handling_redirects
+    response = await self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpx2/_client.py", line 1915, in _send_single_request
+    response = await transport.handle_async_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpx2/_transports/default.py", line 388, in handle_async_request
+    resp = await self._pool.handle_async_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpcore2/_async/connection_pool.py", line 242, in handle_async_request
+    raise exc from None
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpcore2/_async/connection_pool.py", line 217, in handle_async_request
+    await self._close_connections(closing)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpcore2/_async/connection_pool.py", line 374, in _close_connections
+    await connection.aclose()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpcore2/_async/connection.py", line 157, in aclose
+    await self._connection.aclose()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpcore2/_async/http11.py", line 236, in aclose
+    await self._network_stream.aclose()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/httpcore2/_backends/anyio.py", line 55, in aclose
+    await self._stream.aclose()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/anyio/streams/tls.py", line 248, in aclose
+    await self.transport_stream.aclose()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/anyio/_backends/_asyncio.py", line 1467, in aclose
+    self._transport.close()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/asyncio/selector_events.py", line 1209, in close
+    super().close()
+    ~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/asyncio/selector_events.py", line 869, in close
+    self._loop.call_soon(self._call_connection_lost, None)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/asyncio/base_events.py", line 827, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/.local/share/uv/python/cpython-3.14.0-macos-aarch64-none/lib/python3.14/asyncio/base_events.py", line 550, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+2026-10-19 11:47:49,839 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:47:49] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-10-19 11:47:56,658 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 11:47:56,658 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 11:47:56,658 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 11:47:56,658 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 11:47:56,658 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 11:47:56,658 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 11:47:56,658 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 11:47:56,693 | INFO     | - | app:30 - Config loaded
+2026-10-19 11:47:57,097 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-10-19 11:47:57,097 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-19 11:47:59,437 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:47:59] "GET /upload HTTP/1.1" 200 -
+2026-10-19 11:47:59,451 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:47:59] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-19 11:47:59,452 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:47:59] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-19 11:48:10,198 | INFO     | - | app.ai.resume_parser:82 - resume_parse.start
+2026-10-19 11:48:17,150 | INFO     | - | httpx2:1923 - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-10-19 11:48:17,182 | INFO     | - | app.ai.resume_parser:86 - resume_parse.complete
+2026-10-19 11:48:17,194 | ERROR    | - | app:875 - Exception on /upload [POST]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlite3.OperationalError: no such table: resumes
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/resume_routes.py", line 66, in process_resume
+    dbase.session.commit()
+    ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/scoping.py", line 596, in commit
+    return self._proxied.commit()
+           ~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 2035, in commit
+    trans.commit(_to_root=True)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "<string>", line 2, in commit
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 1316, in commit
+    self._prepare_impl()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "<string>", line 2, in _prepare_impl
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/state_changes.py", line 137, in _go
+    ret_value = fn(self, *arg, **kw)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 1290, in _prepare_impl
+    self.session.flush()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4353, in flush
+    self._flush(objects)
+    ~~~~~~~~~~~^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4488, in _flush
+    with util.safe_reraise():
+         ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/util/langhelpers.py", line 122, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/session.py", line 4449, in _flush
+    flush_context.execute()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 465, in execute
+    rec.execute(self)
+    ~~~~~~~~~~~^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/unitofwork.py", line 641, in execute
+    util.preloaded.orm_persistence.save_obj(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.mapper,
+        ^^^^^^^^^^^^
+        uow.states_for_mapper_hierarchy(self.mapper, False, False),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        uow,
+        ^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 94, in save_obj
+    _emit_insert_statements(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        base_mapper,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        insert,
+        ^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/orm/persistence.py", line 1234, in _emit_insert_statements
+    result = connection.execute(
+        statement,
+        params,
+        execution_options=execution_options,
+    )
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1421, in execute
+    return meth(
+        self,
+        distilled_parameters,
+        execution_options or NO_OPTIONS,
+    )
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/sql/elements.py", line 526, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self, distilled_params, execution_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1643, in _execute_clauseelement
+    ret = self._execute_context(
+        dialect,
+    ...<8 lines>...
+        cache_hit=cache_hit,
+    )
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1848, in _execute_context
+    return self._exec_single_context(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^
+        dialect, context, statement, parameters
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1988, in _exec_single_context
+    self._handle_dbapi_exception(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        e, str_statement, effective_parameters, cursor, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 2365, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/base.py", line 1969, in _exec_single_context
+    self.dialect.do_execute(
+    ~~~~~~~~~~~~~~~~~~~~~~~^
+        cursor, str_statement, effective_parameters, context
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: resumes
+[SQL: INSERT INTO resumes (filename, raw_data, user_id, created_at, updated_at) VALUES (?, ?, ?, ?, ?)]
+[parameters: ('TomCampResume.pdf', '{"basics": {"name": "Tom Camp", "label": "Engineer", "image": null, "email": null, "phone": null, "url": null, "summary": null, "location": null, "pr ... (3973 characters truncated) ... "JavaScript", "MySQL", "Git", "Python"], "start_date": "2008-01-01", "end_date": null, "url": null, "roles": [], "company": null, "job_type": null}]}', None, '2026-10-19 15:48:17.193738', '2026-10-19 15:48:17.193741')]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-10-19 11:48:17,204 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [19/Oct/2026 11:48:17] "[35m[1mPOST /upload HTTP/1.1[0m" 500 -
+2026-10-19 13:01:47,033 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 13:01:47,034 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 13:01:47,034 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 13:01:47,034 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 13:01:47,034 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 13:01:47,034 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 13:01:47,034 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 13:01:47,084 | INFO     | - | app:30 - Config loaded
+2026-10-19 13:02:08,516 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-19 13:02:08,516 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-19 13:02:08,516 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-19 13:02:08,517 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-19 13:02:08,517 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-19 13:02:08,517 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-19 13:02:08,517 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-19 13:02:08,551 | INFO     | - | app:30 - Config loaded
