@@ -1783,3 +1783,330 @@ sqlalchemy.exc.IntegrityError: (sqlite3.IntegrityError) NOT NULL constraint fail
 2026-10-27 14:35:30,978 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 14:35:30] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
 2026-10-27 14:35:30,993 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 14:35:30] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
 2026-10-27 14:35:30,995 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 14:35:30] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-27 15:03:10,378 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 15:03:10,378 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 15:03:10,378 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 15:03:10,378 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 15:03:10,378 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 15:03:10,379 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 15:03:10,379 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 15:03:10,434 | INFO     | - | app:30 - Config loaded
+2026-10-27 15:03:11,033 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 15:03:11,033 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 15:03:17,526 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:17] "GET /about HTTP/1.1" 200 -
+2026-10-27 15:03:17,686 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:17] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-27 15:03:17,687 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:17] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-27 15:03:20,067 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:20] "GET / HTTP/1.1" 200 -
+2026-10-27 15:03:20,156 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:20] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-27 15:03:20,159 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:20] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-27 15:03:22,211 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:22] "[32mPOST /logout HTTP/1.1[0m" 302 -
+2026-10-27 15:03:22,218 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:22] "GET / HTTP/1.1" 200 -
+2026-10-27 15:03:22,332 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:22] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-27 15:03:22,332 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:22] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-27 15:03:23,734 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:23] "GET /login HTTP/1.1" 200 -
+2026-10-27 15:03:23,919 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:23] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-27 15:03:23,920 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:23] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-27 15:03:24,960 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:24] "[32mGET /login/google HTTP/1.1[0m" 302 -
+2026-10-27 15:03:25,818 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:25] "[32mGET /auth/google/callback?state=D3E2new6MHF3laW5h3teYHN1jYVYNz&iss=https://accounts.google.com&code=4/0AUn6Hd83WOlCO-rEeZnX_U1sBxT2ZUX-umPsy8fvKTOwRTJLFvTGWRGEqQanBfEHKMbnLw&scope=email+profile+https://www.googleapis.com/auth/userinfo.email+https://www.googleapis.com/auth/userinfo.profile+openid&authuser=0&hd=civicactions.com&prompt=none HTTP/1.1[0m" 302 -
+2026-10-27 15:03:25,826 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:25] "GET / HTTP/1.1" 200 -
+2026-10-27 15:03:25,861 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:25] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-27 15:03:25,861 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:03:25] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-27 15:40:01,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 15:40:01,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 15:40:01,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 15:40:01,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 15:40:01,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 15:40:01,691 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 15:40:01,691 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 15:40:01,743 | INFO     | - | app:30 - Config loaded
+2026-10-27 15:40:02,333 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 15:40:02,333 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 15:40:09,044 | ERROR    | - | app:875 - Exception on / [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/main/routes.py", line 11, in home_page
+    return render_template("pages/home.html")
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/pages/home.html", line 2, in top-level template code
+    {% set page_title = "Home" %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/index.html", line 18, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/base.html", line 25, in top-level template code
+    {% include "partials/nav.html" %}
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/partials/nav.html", line 10, in top-level template code
+    <a href="{{ url_for('user.user_page') }}" class="hover:text-gray-900">Dashboard</a>
+    ^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+        endpoint,
+    ...<3 lines>...
+        force_external=_external,
+    )
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/werkzeug/routing/map.py", line 901, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'user.user_page'. Did you mean 'main.home_page' instead?
+2026-10-27 15:40:09,049 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:40:09] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2026-10-27 15:40:09,336 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:40:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-10-27 15:42:42,709 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 15:42:42,709 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 15:42:42,709 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 15:42:42,709 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 15:42:42,709 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 15:42:42,709 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 15:42:42,709 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 15:42:42,761 | INFO     | - | app:30 - Config loaded
+2026-10-27 15:42:43,263 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 15:42:43,263 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 15:42:45,180 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:42:45] "GET / HTTP/1.1" 200 -
+2026-10-27 15:42:45,306 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:42:45] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-27 15:42:45,307 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:42:45] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-10-27 15:43:18,253 | ERROR    | - | app:875 - Exception on /user/ [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/users_routes.py", line 26, in user_page
+    user = login_manager.current_user.to_dict()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LoginManager' object has no attribute 'current_user'
+2026-10-27 15:43:18,256 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:43:18] "[35m[1mGET /user/ HTTP/1.1[0m" 500 -
+2026-10-27 15:43:38,815 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 15:43:38,815 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 15:43:38,815 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 15:43:38,815 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 15:43:38,815 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 15:43:38,815 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 15:43:38,815 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 15:43:38,864 | INFO     | - | app:30 - Config loaded
+2026-10-27 15:43:39,379 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 15:43:39,379 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 15:43:40,715 | ERROR    | - | app:875 - Exception on /user/ [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/users_routes.py", line 26, in user_page
+    user = login_manager.get_user()
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LoginManager' object has no attribute 'get_user'
+2026-10-27 15:43:40,719 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:43:40] "[35m[1mGET /user/ HTTP/1.1[0m" 500 -
+2026-10-27 15:44:30,335 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 15:44:30,335 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 15:44:30,335 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 15:44:30,335 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 15:44:30,335 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 15:44:30,335 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 15:44:30,335 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 15:44:30,386 | INFO     | - | app:30 - Config loaded
+2026-10-27 15:44:30,963 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 15:44:30,963 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 15:44:31,927 | ERROR    | - | app:875 - Exception on /user/ [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/users_routes.py", line 26, in user_page
+    user = login_manager.get_id()
+           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'LoginManager' object has no attribute 'get_id'
+2026-10-27 15:44:31,930 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 15:44:31] "[35m[1mGET /user/ HTTP/1.1[0m" 500 -
+2026-10-27 16:04:33,272 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 16:04:33,272 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 16:04:33,272 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 16:04:33,272 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 16:04:33,272 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 16:04:33,272 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 16:04:33,272 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 16:04:33,326 | INFO     | - | app:30 - Config loaded
+2026-10-27 16:04:33,933 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 16:04:33,933 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 16:04:36,455 | ERROR    | - | app:875 - Exception on /user/ [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/users_routes.py", line 26, in user_page
+    user = current_user()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/werkzeug/local.py", line 575, in <lambda>
+    __call__ = _ProxyLookup(lambda self, *args, **kwargs: self(*args, **kwargs))
+                                                          ~~~~^^^^^^^^^^^^^^^^^
+TypeError: 'User' object is not callable
+2026-10-27 16:04:36,458 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 16:04:36] "[35m[1mGET /user/ HTTP/1.1[0m" 500 -
+2026-10-27 16:05:53,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 16:05:53,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 16:05:53,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 16:05:53,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 16:05:53,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 16:05:53,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 16:05:53,754 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 16:05:53,808 | INFO     | - | app:30 - Config loaded
+2026-10-27 16:05:54,363 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 16:05:54,363 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 16:05:55,536 | ERROR    | - | app:875 - Exception on /user/ [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/users_routes.py", line 27, in user_page
+    return render_template("pages.user", user=user)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 150, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 1087, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 1016, in get_template
+    return self._load_template(name, globals)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 975, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+                                 ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 66, in get_source
+    return self._get_source_fast(environment, template)
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 100, in _get_source_fast
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: pages.user
+2026-10-27 16:05:55,540 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 16:05:55] "[35m[1mGET /user/ HTTP/1.1[0m" 500 -
+2026-10-27 16:06:21,020 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 16:06:21,020 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 16:06:21,020 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 16:06:21,020 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 16:06:21,021 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 16:06:21,021 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 16:06:21,021 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 16:06:21,069 | INFO     | - | app:30 - Config loaded
+2026-10-27 16:06:21,580 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 16:06:21,580 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 16:06:27,491 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 16:06:27,491 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 16:06:27,491 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 16:06:27,491 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 16:06:27,491 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 16:06:27,491 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 16:06:27,491 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 16:06:27,529 | INFO     | - | app:30 - Config loaded
+2026-10-27 16:06:27,926 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 16:06:27,926 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 16:06:29,600 | ERROR    | - | app:875 - Exception on /user/ [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/users_routes.py", line 27, in user_page
+    return render_template("pages/user.html", user=user)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/pages/user.html", line 13, in top-level template code
+    {% set page_title = page.title %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'page' is undefined
+2026-10-27 16:06:29,604 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 16:06:29] "[35m[1mGET /user/ HTTP/1.1[0m" 500 -
+2026-10-27 16:06:49,315 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-10-27 16:06:49,316 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-10-27 16:06:49,316 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-10-27 16:06:49,316 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-10-27 16:06:49,316 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-10-27 16:06:49,316 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-10-27 16:06:49,316 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-10-27 16:06:49,365 | INFO     | - | app:30 - Config loaded
+2026-10-27 16:06:49,886 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-10-27 16:06:49,886 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-10-27 16:06:51,285 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 16:06:51] "GET /user/ HTTP/1.1" 200 -
+2026-10-27 16:06:51,305 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 16:06:51] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-10-27 16:06:51,306 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [27/Oct/2026 16:06:51] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -

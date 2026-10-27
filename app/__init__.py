@@ -40,10 +40,12 @@ def create_app(config_name=None):
     from app.main import bp as main_bp
     from app.routes.auth_routes import bp as auth_bp
     from app.routes.resume_routes import bp as resume_bp
+    from app.routes.users_routes import bp as user_page
 
     app.register_blueprint(main_bp)
     app.register_blueprint(auth_bp)
     app.register_blueprint(resume_bp)
+    app.register_blueprint(user_page)
 
     @app.context_processor
     def inject_globals():

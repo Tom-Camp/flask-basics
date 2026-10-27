@@ -14,6 +14,7 @@ from flask import (
     request,
     url_for,
 )
+from flask_login import login_required
 from werkzeug.utils import secure_filename
 
 from app.ai.resume_parser import parse_resume_text
@@ -35,6 +36,7 @@ def allowed_file(filename: str) -> bool:
 
 
 @bp.post("/upload")
+@login_required
 def process_resume():
     form = ResumeForm()
 
@@ -76,12 +78,14 @@ def process_resume():
 
 
 @bp.get("/upload")
+@login_required
 def upload_resume():
     form = ResumeForm()
     return render_template("pages/upload.html", form=form)
 
 
 @bp.route("/<resume_id>")
+@login_required
 def resume(resume_id: int):
     resume_data = dbase.session.query(Resume).filter(Resume.id == resume_id).first()
     return render_template("pages/resume.html", resume=resume_data)
