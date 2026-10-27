@@ -24,7 +24,7 @@ from app.models.resume_schema import ResumeData
 from app.utils.file_parser import extract_text
 
 
-bp = Blueprint("resume", __name__)
+bp = Blueprint("resume", __name__, url_prefix="/resume")
 
 
 ALLOWED_EXTENSIONS = {".pdf", ".docx"}

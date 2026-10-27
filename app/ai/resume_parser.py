@@ -17,7 +17,7 @@ from app.models.resume_schema import ResumeData
 log = logging.getLogger(__name__)
 
 _agent = Agent(
-    GoogleModel(os.environ.get("GEMINI_AGENT", "gemini-3.1-flash-lite-preview")),
+    GoogleModel(os.environ.get("GEMINI_AGENT", "gemini-3.5-flash-lite-preview")),
     output_type=ResumeData,
     system_prompt=(
         "You are a resume parser. Extract all available information from the provided "

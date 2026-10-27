@@ -1,2 +1,3 @@
 FLASK_APP=app.app
 FLASK_DEBUG=1
+FLASK_RUN_HOST=localhost
