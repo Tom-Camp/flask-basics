@@ -26,6 +26,12 @@ def test_db_can_create_query_and_commit(app, db):
     widget = db.session.query(Widget).filter_by(name="sprocket").first()
     assert widget is not None
     assert widget.name == "sprocket"
+    assert widget.id > 0
+
+    next_widget = Widget(name="cog")
+    db.session.add(next_widget)
+    db.session.commit()
+    assert next_widget.id > widget.id
 
 
 def test_db_data_isolated_between_app_instances(app, db):

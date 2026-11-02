@@ -2,7 +2,125 @@
 {% set page_title = "About" %}
 
 {% block page_content %}
-<p class="text-gray-700 leading-relaxed">
-    {{ content.body }}
-</p>
+<div class="border-1 shadow-lg shadow-gray-700 rounded-lg px-6 py-4">
+    <!-- Header Section -->
+    <div class="text-center">
+        <h1 class="text-5xl font-bold mb-3 text-gray-900">{{ resume.basics.name }}</h1>
+        <p class="text-xl font-light text-gray-800">{{ resume.basics.label }}</p>
+        <p class="mt-3 text-sm text-gray-700">
+            {% if resume.basics.email %}{{ resume.basics.email }} |{% endif %}
+            {% if resume.basics.phone %}{{ resume.basics.phone }} |{% endif %}
+            {{ resume.basics.url if resume.basics.url }}
+        </p>
+    </div>
+
+    <!-- About Me Section -->
+    <section class="my-10">
+        <h2 class="text-3xl font-semibold">About Me</h2>
+        <p class="mt-3 text-gray-200 leading-relaxed">
+            {{ resume.basics.summary if resume.basics.summary }}
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="my-10">
+        <h2 class="text-3xl font-semibold">Skills</h2>
+        <div class="mt-5">
+            {% for skill in resume.skills %}
+                <div>
+                    <h3 class="text-xl font-medium text-gray-900 mb-2">{{ skill.name }}</h3>
+                    {% for keyword in skill.keywords %}
+                        <span class="mr-1 text-gray-800">{{ keyword }}{% if not loop.last %},{% endif %}</span>
+                    {% endfor %}
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="my-10">
+        <h2 class="text-3xl font-semibold">Experience</h2>
+        <div class="mt-5">
+            {% for work in resume.work %}
+                <div class="mb-6">
+                    <h3 class="text-xl font-bold text-gray-900">{{ work.position }}</h3>
+                    <p class="text-sm font-light text-gray-800">
+                        {{ work.employer_name }} - {{ work.start_date }} to {{ work.end_date | default('Present', True) }}
+                    </p>
+                    {% if work.summary %}<p class="text-sm font-light text-gray-800">{{ work.summary }}</p>{% endif %}
+                    {% if work.highlights %}
+                    <ul class="list-disc list-inside mt-2 ml-1 text-gray-700">
+                        {% for highlight in work.highlights %}
+                            <li>{{ highlight }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    {% if resume.education %}
+    <section class="my-10">
+        <h2 class="text-3xl font-semibold">Education</h2>
+        {% for education in resume.education %}
+            <div class="mt-5">
+                <h3 class="text-xl font-bold text-gray-900">{{ education.degree_type }} in {{ education.area }}</h3>
+                <p class="text-sm font-light text-gray-700">{{ education.institution }} - {{ education.end_date }}</p>
+            </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    <!-- Volunteer Section -->
+    {% if resume.volunteer %}
+    <section class="my-10">
+        <h2 class="text-3xl font-semibold">Volunteer</h2>
+        {% for volunteer in resume.volunteer %}
+            <div class="mt-5">
+                <h3 class="text-xl font-bold text-gray-900">{{ volunteer.degree_type }} in {{ volunteer.area }}</h3>
+                <p class="text-sm font-light text-gray-700">{{ volunteer.institution }} - {{ volunteer.end_date }}</p>
+            </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    <!-- Awards Section -->
+    {% if resume.awards %}
+    <section class="my-10">
+        <h2 class="text-3xl font-semibold">Awards</h2>
+        {% for award in resume.awards %}
+            <div class="mt-5">
+                <h3 class="text-xl font-bold text-gray-900">{{ award.title }} - {{ award.date }}</h3>
+                <p class="text-sm font-light text-gray-700">{{ award.summary }}</p>
+            </div>
+        {% endfor %}
+    </section>
+    {% endif %}
+
+    <!-- Certifications Section -->
+    {% if resume.certificates %}
+    <section class="my-10">
+        <h2 class="text-3xl font-semibold">Certifications</h2>
+        <ul class="list-disc list-inside ml-1">
+            {% for certificate in resume.certificates %}
+                <li>{{ certificate.name }} - {{ certificate.issuer }}, {{ certificate.date }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+
+    <!-- Publications Section -->
+    {% if resume.publications %}
+    <section class="my-10">
+        <h2 class="text-3xl font-semibold">Publications</h2>
+        <ul class="list-disc list-inside ml-1">
+            {% for publication in resume.publications %}
+                <li>{{ publication.name }} ({{ publication.date }}). {{ publication.issuer }}. {{ publication.url if publication.url }}</li>
+            {% endfor %}
+        </ul>
+    </section>
+    {% endif %}
+</div>
 {% endblock %}

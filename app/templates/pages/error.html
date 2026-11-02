@@ -1,0 +1,12 @@
+{% extends "index.html" %}
+{% set page_title = "Error" %}
+
+{% block page_content %}
+    <div class="flex justify-center items-center">
+        <div class="text-center">
+            <h1 class="text-4xl font-medium">{{ code }} {{ name }}</h1>
+            <p class="text-xl font-medium m-6">{{ description }}</p>
+            <a href="{{ url_for('main.home_page') }}" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Go Home</a>
+        </div>
+    </div>
+{% endblock %}

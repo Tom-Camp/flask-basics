@@ -13,5 +13,43 @@
 {% set page_title = user.name %}
 
 {% block page_content %}
-{{ user.name | safe }}
+
+    <a
+      href="{{ url_for('resume.upload_resume') }}"
+      class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+    >Upload a resume</a>
+    <div class="md:container md:mx-auto rounded-lg border border-gray-200 shadow-sm mt-4">
+      <div class="min-w-full divide-y divide-gray-200 text-sm">
+        <table class="w-full table-fixed divide-y divide-gray-200 text-sm">
+            <thead>
+                <tr>
+                    <th scope="col" class="px-4 py-3 text-left font-semibold text-gray-700">Filename</th>
+                    <th scope="col" class="px-4 py-3 text-left font-semibold text-gray-700">Updated</th>
+                    <th scope="col" class="px-4 py-3 text-left font-semibold text-gray-700">Uploaded</th>
+                    <th scope="col" class="px-4 py-3 text-left font-semibold text-gray-700"></th>
+                    <th scope="col" class="px-4 py-3 text-left font-semibold text-gray-700"></th>
+                </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200 bg-white">
+                {% for resume in user.resumes %}
+                    <tr class="odd:bg-white even:bg-gray-50 hover:bg-blue-50">
+                        <td class="whitespace-nowrap px-4 py-3 font-medium text-gray-900">
+                            <a href="{{ url_for('resume.resume', resume_id=resume.id) }}">{{ resume.filename }}</a>
+                        </td>
+                        <td class="whitespace-nowrap px-4 py-3 text-gray-600">{{ resume.updated_at.strftime('%Y-%m-%d %H:%M') }}</td>
+                        <td class="whitespace-nowrap px-4 py-3 text-gray-600">{{ resume.created_at.strftime('%Y-%m-%d %H:%M') }}</td>
+                        <td class="whitespace-nowrap px-4 py-3 text-gray-600">
+                            <a href="{{ url_for('resume.resume_edit', resume_id=resume.id) }}">Edit</a>
+                        </td>
+                        <td class="whitespace-nowrap px-4 py-3 text-gray-600">Revisions</td>
+                    </tr>
+                {% else %}
+                    <tr>
+                        <td colspan="4" class="whitespace-nowrap px-4 py-3 text-gray-600">No resumes uploaded yet.</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+      </div>
+    </div>
 {% endblock %}

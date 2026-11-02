@@ -1,7 +1,9 @@
 import os
 from datetime import datetime, timezone
 
-from flask import Flask
+from flask import Flask, render_template
+
+from werkzeug.exceptions import HTTPException
 
 from app.utils import logger_config as logger_config
 
@@ -52,6 +54,12 @@ def create_app(config_name=None):
         # Makes `current_year` available in every template without each
         # view having to pass it explicitly (used in partials/footer.html).
         return {"current_year": datetime.now(timezone.utc).year}
+
+    @app.errorhandler(HTTPException)
+    def handle_http(e):
+        return render_template(
+            "pages/error.html", code=e.code, name=e.name, description=e.description
+        ), e.code
 
     with app.app_context():
         from app import models  # noqa: F401  (registers models on db.metadata)

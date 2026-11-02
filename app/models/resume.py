@@ -42,7 +42,7 @@ class Resume(BaseModel):
 class ResumeRevisions(Base):
     __tablename__ = "resume_revisions"
 
-    id: Mapped[int] = mapped_column(primary_key=True)
+    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)
     resume_id: Mapped[int] = mapped_column(ForeignKey("resumes.id"), index=True)
     field: Mapped[str] = mapped_column(String(64))
     old_value: Mapped[str | None] = mapped_column(Text)

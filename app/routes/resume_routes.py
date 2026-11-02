@@ -13,8 +13,9 @@ from flask import (
     render_template,
     request,
     url_for,
+    abort,
 )
-from flask_login import login_required
+from flask_login import login_required, current_user
 from werkzeug.utils import secure_filename
 
 from app.ai.resume_parser import parse_resume_text
@@ -50,7 +51,6 @@ def process_resume():
         if not file.filename:
             flash("No selected file", "error")
             return redirect(request.url)
-            return redirect(request.url)
 
         if not allowed_file(file.filename):
             flash("Invalid file type", "error")
@@ -66,12 +66,13 @@ def process_resume():
         )
         if isinstance(parsed_resume, ResumeData):
             new_resume = Resume(
+                user_id=current_user.id,
                 filename=filename,
                 raw_data=parsed_resume.model_dump(),
             )
             dbase.session.add(new_resume)
             dbase.session.commit()
-            return redirect(url_for("resume.index", resume_id=new_resume.id))
+            return redirect(url_for("resume.resume", resume_id=new_resume.id))
         else:
             flash(parsed_resume, "error")
     return redirect(url_for("resume.upload_resume"))
@@ -88,4 +89,16 @@ def upload_resume():
 @login_required
 def resume(resume_id: int):
     resume_data = dbase.session.query(Resume).filter(Resume.id == resume_id).first()
-    return render_template("pages/resume.html", resume=resume_data)
+    if not resume_data:
+        abort(404, "Resume not found")
+    return render_template("pages/resume.html", resume=resume_data.raw_data)
+
+
+@bp.route("/<resume_id>/edit", methods=["GET"])
+def resume_edit(resume_id: int):
+    resume_data: Resume | None = (
+        dbase.session.query(Resume).filter(Resume.id == resume_id).first()
+    )
+    if not resume_data:
+        abort(404, "Resume not found")
+    return render_template("pages/resume.html", resume=resume_data.raw_data)
