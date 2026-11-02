@@ -16,10 +16,12 @@ from flask import (
     abort,
 )
 from flask_login import login_required, current_user
+from pydantic import ValidationError
 from werkzeug.utils import secure_filename
 
 from app.ai.resume_parser import parse_resume_text
 from app.extensions import dbase
+from app.forms.resume_edit_form import ResumeEditForm
 from app.forms.resume_form import ResumeForm
 from app.models.resume import Resume
 from app.models.resume_schema import ResumeData
@@ -94,11 +96,33 @@ def resume(resume_id: int):
     return render_template("pages/resume.html", resume=resume_data.raw_data)
 
 
-@bp.route("/<resume_id>/edit", methods=["GET"])
-def resume_edit(resume_id: int):
-    resume_data: Resume | None = (
-        dbase.session.query(Resume).filter(Resume.id == resume_id).first()
-    )
-    if not resume_data:
+def _get_owned_resume(resume_id: int) -> Resume:
+    resume_data = dbase.session.get(Resume, resume_id)
+    if not resume_data or resume_data.user_id != current_user.id:
         abort(404, "Resume not found")
-    return render_template("pages/resume.html", resume=resume_data.raw_data)
+    return resume_data
+
+
+@bp.get("/<int:resume_id>/edit")
+@login_required
+def resume_edit(resume_id: int):
+    resume_data = _get_owned_resume(resume_id)
+    form = ResumeEditForm.from_resume(resume_data.raw_data)
+    return render_template("pages/resume_edit.html", form=form, resume_id=resume_id)
+
+
+@bp.post("/<int:resume_id>/edit")
+@login_required
+def resume_edit_process(resume_id: int):
+    resume_data = _get_owned_resume(resume_id)
+    form = ResumeEditForm()
+    if form.validate_on_submit():
+        try:
+            resume_data.raw_data = form.to_resume_data().model_dump()
+        except ValidationError:
+            flash("Some entries are incomplete (e.g. job categories).", "error")
+        else:
+            dbase.session.commit()
+            flash("Resume updated.", "success")
+            return redirect(url_for("resume.resume", resume_id=resume_id))
+    return render_template("pages/resume_edit.html", form=form, resume_id=resume_id)

@@ -4735,3 +4735,247 @@ jinja2.exceptions.UndefinedError: 'app.models.resume.Resume object' has no attri
 2026-11-02 13:13:48,961 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:13:48] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
 2026-11-02 13:13:48,963 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:13:48] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
 2026-11-02 13:13:49,075 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:13:49] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-11-02 13:27:33,286 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 13:27:33,286 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 13:27:33,286 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 13:27:33,286 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 13:27:33,286 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 13:27:33,286 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 13:27:33,286 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 13:27:33,461 | INFO     | - | app:32 - Config loaded
+2026-11-02 13:27:40,760 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 13:27:40,760 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 13:27:40,760 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 13:27:40,760 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 13:27:40,760 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 13:27:40,760 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 13:27:40,760 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 13:27:40,942 | INFO     | - | app:32 - Config loaded
+2026-11-02 13:31:25,083 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 13:31:25,083 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 13:31:25,083 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 13:31:25,083 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 13:31:25,083 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 13:31:25,083 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 13:31:25,083 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 13:31:25,271 | INFO     | - | app:32 - Config loaded
+2026-11-02 13:31:29,846 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 13:31:29,846 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 13:31:29,846 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 13:31:29,846 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 13:31:29,846 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 13:31:29,846 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 13:31:29,846 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 13:31:29,978 | INFO     | - | app:32 - Config loaded
+2026-11-02 13:32:14,973 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 13:32:14,973 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 13:32:14,973 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 13:32:14,973 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 13:32:14,973 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 13:32:14,973 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 13:32:14,973 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 13:32:15,024 | INFO     | - | app:32 - Config loaded
+2026-11-02 13:32:15,530 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-11-02 13:32:15,530 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-11-02 13:32:19,531 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:19] "GET /user/ HTTP/1.1" 200 -
+2026-11-02 13:32:19,649 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:19] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 13:32:19,651 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:19] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 13:32:22,184 | ERROR    | - | app:875 - Exception on /resume/1/edit [GET]
+Traceback (most recent call last):
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/routes/resume_routes.py", line 104, in resume_edit
+    return render_template("pages/resume_edit.html", resume=resume_data.raw_data)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 151, in render_template
+    return _render(app, template, context)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/flask/templating.py", line 132, in _render
+    rv = template.render(context)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/pages/resume_edit.html", line 49, in top-level template code
+    <button type="button" data-add class="{{ btn_cls }} text-sm">Add {{ name|replace("_", " ") }} entry</button>
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/index.html", line 18, in top-level template code
+    {% extends "base.html" %}
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/base.html", line 45, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/index.html", line 25, in block 'content'
+    {% block page_content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/app/templates/pages/resume_edit.html", line 56, in block 'page_content'
+    {{ form.hidden_tag() }}
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tom.camp/Workspace/internal/flask-basics/.venv/lib/python3.14/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+jinja2.exceptions.UndefinedError: 'form' is undefined
+2026-11-02 13:32:22,192 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:22] "[35m[1mGET /resume/1/edit HTTP/1.1[0m" 500 -
+2026-11-02 13:32:22,284 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:22] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 13:32:22,284 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:22] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 13:32:31,315 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:31] "GET / HTTP/1.1" 200 -
+2026-11-02 13:32:31,403 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:31] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 13:32:31,404 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:32:31] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 13:33:56,321 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 13:33:56,321 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 13:33:56,321 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 13:33:56,321 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 13:33:56,321 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 13:33:56,321 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 13:33:56,321 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 13:33:56,372 | INFO     | - | app:32 - Config loaded
+2026-11-02 13:33:56,904 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-11-02 13:33:56,904 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-11-02 13:33:58,938 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:33:58] "GET /user/ HTTP/1.1" 200 -
+2026-11-02 13:33:59,080 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:33:59] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 13:33:59,081 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:33:59] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 13:34:00,841 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:34:00] "GET /resume/1/edit HTTP/1.1" 200 -
+2026-11-02 13:34:00,918 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:34:00] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 13:34:00,919 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 13:34:00] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 13:58:08,518 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 13:58:08,518 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 13:58:08,518 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 13:58:08,518 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 13:58:08,518 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 13:58:08,518 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 13:58:08,518 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 13:58:08,621 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:04:28,227 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:04:28,227 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:04:28,227 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:04:28,227 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:04:28,227 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:04:28,227 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:04:28,227 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:04:28,279 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:04:54,008 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:04:54,008 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:04:54,008 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:04:54,008 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:04:54,008 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:04:54,008 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:04:54,008 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:04:54,044 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:04:54,438 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-11-02 14:04:54,438 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-11-02 14:04:58,325 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:04:58] "GET /resume/1/edit HTTP/1.1" 200 -
+2026-11-02 14:04:58,446 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:04:58] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 14:04:58,446 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:04:58] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 14:04:58,614 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:04:58] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-11-02 14:06:40,879 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:06:40,879 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:06:40,879 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:06:40,879 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:06:40,879 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:06:40,879 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:06:40,879 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:06:40,935 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:07:47,942 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:07:47,942 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:07:47,942 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:07:47,942 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:07:47,942 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:07:47,942 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:07:47,942 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:07:47,997 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:11,618 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:08:11,618 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:08:11,618 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:08:11,618 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:08:11,618 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:08:11,618 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:08:11,618 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:08:11,657 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:12,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:08:12,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:08:12,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:08:12,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:08:12,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:08:12,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:08:12,690 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:08:12,752 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,054 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,075 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,106 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,123 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,140 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,158 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,175 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,192 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,209 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,226 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,244 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,261 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,278 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,295 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,312 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,330 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,349 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,366 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,384 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,400 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,418 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,436 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,453 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,488 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:13,507 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:46,548 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:08:46,548 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:08:46,548 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:08:46,549 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:08:46,549 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:08:46,549 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:08:46,549 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:08:46,586 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:08:46,978 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-11-02 14:08:46,978 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-11-02 14:08:49,629 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:08:49] "GET /resume/1/edit HTTP/1.1" 200 -
+2026-11-02 14:08:49,642 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:08:49] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 14:08:49,643 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:08:49] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 14:08:49,876 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:08:49] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-11-02 14:08:50,828 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:08:50] "GET /resume/1/edit HTTP/1.1" 200 -
+2026-11-02 14:08:50,847 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:08:50] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 14:08:50,848 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:08:50] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 14:08:50,973 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:08:50] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-11-02 14:09:21,498 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:09:21,498 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:09:21,498 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:09:21,498 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:09:21,498 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:09:21,498 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:09:21,498 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:09:21,593 | INFO     | - | app:32 - Config loaded
+2026-11-02 14:09:22,493 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-11-02 14:09:22,493 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-11-02 14:09:31,326 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:09:31] "[32mPOST /resume/1/edit HTTP/1.1[0m" 302 -
+2026-11-02 14:09:31,349 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:09:31] "GET /resume/1 HTTP/1.1" 200 -
+2026-11-02 14:09:31,459 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:09:31] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-02 14:09:31,459 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [02/Nov/2026 14:09:31] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-02 14:23:28,718 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:23:28,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:23:28,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:23:28,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:23:28,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:23:28,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:23:28,719 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-02 14:24:19,181 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname

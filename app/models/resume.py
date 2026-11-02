@@ -3,6 +3,7 @@ Copyright 2019-2026 CivicActions, Inc. See the README file at the top-level
 directory of this distribution and at https://github.com/CivicActions/flask-basics#license.
 """
 
+import json
 from datetime import datetime, timezone
 from typing import Any, ClassVar, TYPE_CHECKING
 
@@ -54,6 +55,12 @@ class ResumeRevisions(Base):
     resume: Mapped["Resume"] = relationship(back_populates="revisions")
 
 
+def _to_text(value: Any) -> str | None:
+    if value is None or isinstance(value, str):
+        return value
+    return json.dumps(value, default=str)
+
+
 @event.listens_for(Session, "before_flush")
 def record_revisions(session: Session, flush_context, instances) -> None:
     for obj in list(session.dirty):
@@ -67,7 +74,7 @@ def record_revisions(session: Session, flush_context, instances) -> None:
             obj.revisions.append(
                 ResumeRevisions(
                     field=name,
-                    old_value=hist.deleted[0] if hist.deleted else None,
-                    new_value=hist.added[0] if hist.added else None,
+                    old_value=_to_text(hist.deleted[0] if hist.deleted else None),
+                    new_value=_to_text(hist.added[0] if hist.added else None),
                 )
             )

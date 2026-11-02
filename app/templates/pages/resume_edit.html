@@ -1,0 +1,105 @@
+{% extends "index.html" %}
+{% set page_title = "Edit resume" %}
+
+{% set input_cls = "shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" %}
+{% set btn_cls = "bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" %}
+
+{% macro render_field(field) %}
+    {% if field.type == "FormField" %}
+        <fieldset class="md:col-span-2 border rounded p-3">
+            <legend class="text-sm font-bold text-gray-700 px-1">{{ field.name.split("-")[-1]|replace("_", " ")|title }}</legend>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+                {% for sub in field %}{{ render_field(sub) }}{% endfor %}
+            </div>
+        </fieldset>
+    {% elif field.type == "FieldList" %}
+        {{ render_list(field.short_name, field) }}
+    {% elif field.type == "BooleanField" %}
+        <label class="flex items-center gap-2 text-sm text-gray-700">
+            {{ field() }} {{ field.label.text }}
+        </label>
+    {% else %}
+        {% set wide = field.type in ("TextAreaField", "StringListField") %}
+        <div class="{{ 'md:col-span-2' if wide }}">
+            <label for="{{ field.id }}" class="block text-gray-700 text-sm font-bold mb-1">
+                {{ field.label.text }}{% if field.type == "StringListField" %} <span class="font-normal text-gray-500">(one per line)</span>{% endif %}
+            </label>
+            {{ field(class=input_cls, rows=4 if wide else None) }}
+            {% for error in field.errors %}
+                <p class="text-red-500 text-xs mt-1">{{ error }}</p>
+            {% endfor %}
+        </div>
+    {% endif %}
+{% endmacro %}
+
+{% macro render_entry(entry) %}
+    <div class="entry border rounded p-4 mb-3 bg-gray-50" data-entry>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {% for sub in entry.form %}{{ render_field(sub) }}{% endfor %}
+        </div>
+        <button type="button" data-remove class="mt-3 text-red-600 text-sm hover:underline">Remove</button>
+    </div>
+{% endmacro %}
+
+{% macro render_list(name, field) %}
+    <div class="md:col-span-2" data-list="{{ field.name }}">
+        <div data-entries>
+            {% for entry in field %}{{ render_entry(entry) }}{% endfor %}
+        </div>
+        <button type="button" data-add class="{{ btn_cls }} text-sm">Add {{ name|replace("_", " ") }} entry</button>
+    </div>
+{% endmacro %}
+
+{% block page_content %}
+{% set sections = ["work", "volunteer", "education", "awards", "certificates", "publications", "skills", "languages", "interests", "references", "projects"] %}
+<form method="post" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 w-full max-w-4xl">
+    {{ form.hidden_tag() }}
+
+    <section class="mb-8">
+        <h2 class="text-2xl font-semibold text-gray-900 mb-3">Basics</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {% for sub in form.basics %}{{ render_field(sub) }}{% endfor %}
+        </div>
+    </section>
+
+    {% for name in sections %}
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-900 mb-3">{{ name|title }}</h2>
+            {{ render_list(name, form[name]) }}
+            <template data-template="{{ form[name].name }}">
+                {{ render_entry({"form": form.blank_entry(name)}) }}
+            </template>
+        </section>
+    {% endfor %}
+
+    <div class="flex items-center justify-between">
+        {{ form.submit(class=btn_cls) }}
+        <a href="{{ url_for('resume.resume', resume_id=resume_id) }}" class="text-gray-600 hover:underline">Cancel</a>
+    </div>
+</form>
+
+<script>
+    // Nested lists (e.g. work-0-categories) are rendered inside their parent entry and
+    // have no blank template of their own, so only top-level sections can add entries.
+    document.addEventListener("click", (e) => {
+        const list = e.target.closest("[data-list]");
+        if (!list) return;
+        if (e.target.matches("[data-remove]")) {
+            e.target.closest("[data-entry]").remove();
+        } else if (e.target.matches("[data-add]")) {
+            const tpl = document.querySelector(`template[data-template="${list.dataset.list}"]`);
+            if (!tpl) return;
+            const container = list.querySelector("[data-entries]");
+            const indices = [...container.querySelectorAll(":scope > [data-entry]")].map((el) => {
+                const field = el.querySelector("[name]");
+                const m = field && field.name.match(new RegExp(`^${list.dataset.list}-(\\d+)-`));
+                return m ? Number(m[1]) : -1;
+            });
+            const next = Math.max(-1, ...indices) + 1;
+            const wrapper = document.createElement("div");
+            wrapper.innerHTML = tpl.innerHTML.replaceAll("__i__", next);
+            container.append(...wrapper.children);
+        }
+    });
+</script>
+{% endblock %}
