@@ -17,6 +17,7 @@ dependencies = [
     "python-dotenv>=1.2.3",
     "python-slugify>=9.0.0",
     "requests>=2.34.2",
+    "ruamel-yaml>=0.19.1",
 ]
 
 [dependency-groups]

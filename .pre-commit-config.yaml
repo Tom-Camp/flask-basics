@@ -37,6 +37,7 @@ repos:
           - flask-wtf
           - "pydantic-ai-slim[google]"
           - pypdf
+          - ruamel.yaml
           - python-docx
           - python-dotenv
           - python-slugify

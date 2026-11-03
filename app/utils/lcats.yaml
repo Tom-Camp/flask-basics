@@ -1,0 +1,399 @@
+Design:
+- education: Associates
+  experience: Work on Direct Client Assignments as a Team Member. Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: Visual Designer III
+  min_plus: 2
+  minimum: 3
+- education: Bachelors
+  experience: Work on Direct Client Assignments as a Team Member. Partial Leadership Role, including functional
+    leadership of junior members within your area of expertise, with Direction provided by Senior Team
+    Members and/or the Client.
+  labor_category: Visual Designer V
+  min_plus: 4
+  minimum: 0
+- education: Associates
+  experience: Work on Direct Client Assignments as a Team Member. Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: Theme Designer I
+  min_plus: 2
+  minimum: 1
+- education: Associates
+  experience: Work on Direct Client Assignments as a Team Member. Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: Theme Designer III
+  min_plus: 2
+  minimum: 3
+- education: Bachelors
+  experience: Work on Direct Client Assignments as a Team Member. Partial Leadership Role, including functional
+    leadership of junior members within your area of expertise, with Direction provided by Senior Team
+    Members and/or the Client.
+  labor_category: Theme Designer V
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Manages the User Experience from strategy to wireframe for  IT Programs and Activities.
+    Supervises and leads teams of Experience Architects. Mentors and monitors the User Experience (UX)
+    team to grow them as professionals. Communicates clearly about design, from delivering persuasive
+    presentations to writing detailed annotations. Works with others to leverage primary research, personas,
+    task analysis, and heuristic and competitive reviews to craft industry leading user experiences. Crafts
+    and conducts stakeholder interviews with everyone from SMEs to executives to determine business/site
+    objectives. Creates information, visual design and systems for internet, intranet and extranet sites,
+    as well as online and mobile applications. Creates and refines UX thought expressed as deliverables,
+    including task and gap analyses, content analysis, and strategy and feature/functionality matrices;
+    usage scenarios; site maps; wireframes; flow diagrams; and  user-requirements documents. Prepares
+    and presents design recommendations based on business goals, user research, UCD, and IA principles.
+  labor_category: User Experience and Visual Designer
+  min_plus: 4
+  minimum: 3
+DevSecOps:
+- education: Bachelors
+  experience: Deploying and configuring services using infrastructure as a service providers (e.g., Amazon
+    Web Services, Microsoft Azure, Google Compute Engine, RackSpace/OpenStack).  Configuring and managing
+    Linux-based computing architectures. Using scripting or basic programming skills to solve problems.
+    Installation and management of open source monitoring tools. Configuration management tools (e.g.,
+    Puppet, Chef, Ansible, Salt).  Architecture for continuous integration and deployment, and continuous
+    monitoring. Containerization technologies (e.g., LXC, Docker, Rocket).
+  labor_category: DevOps Engineer
+  min_plus: 4
+  minimum: 7
+- education: Bachelors
+  experience: Support the Product Manager to make sure their service meets performance requirements. Communicate
+    service performance against key indicators to internal and external stakeholders. Ensure high-quality
+    analysis of agency transaction data. Support the procurement of the necessary digital platforms to
+    support automated and real-time collection and presentation of data. Share examples of best practice
+    in digital performance management across government.  Identify delivery obstacles to improving transactional
+    performance in agencies and working with teams to overcome those obstacles.
+  labor_category: Digital Performance Analyst
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Responsible for independently performing highly technical and highly complex  engineering
+    analysis tasks relating to design, needs analysis, design review, testing, implementation, and validation
+    for  related programs. Researches, evaluates, and recommends systems/equipment/technologies based
+    upon needs of  environment and business needs. Drafts technical instructions, engineering plans, technical
+    designs, etc.  Provides guidance and supervision to daily support staff.
+  labor_category: DevOps Engineer SME
+  min_plus: 4
+  minimum: 10
+- education: Bachelors
+  experience: Responsible for independently performing highly technical and highly complex  engineering
+    analysis tasks relating to design, needs analysis, design review, testing, implementation, and validation
+    for  related programs. Researches, evaluates, and recommends systems/equipment/technologies based
+    upon needs of  environment and business needs. Drafts technical instructions, engineering plans, technical
+    designs, etc.
+  labor_category: Lead DevOps Engineer
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Responsible for specifying, collecting, and presenting key performance data and analysis
+    for  IT Programs and Activities. Supports Program and Project Managers Managers by generating new
+    and useful information and translating it into actions that will allow them to iteratively improve
+    their service for users. Possesses analytical and problem-solving skills necessary for quickly developing
+    recommendations based on the quantitative and qualitative evidence gathered via web analytics, financial
+    data, and user feedback.
+  labor_category: Performance Analyst
+  min_plus: 4
+  minimum: 3
+Engineering:
+- education: Associates
+  experience: Work on Direct Client Assignments as a Team Member. Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: Engineer I
+  min_plus: 2
+  minimum: 3
+- education: Associates
+  experience: Work on Direct Client Assignments as a Team Member.  Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client
+  labor_category: Engineer II
+  min_plus: 2
+  minimum: 4
+- education: Bachelors
+  experience: Work on Direct Client Assignments as a Team Member. Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: Engineer III
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Work on Direct Client Assignments as a Team Member. Partial Leadership Role, including functional
+    leadership of junior members within your area of expertise, with Direction provided by Senior Team
+    Members and/or the Client
+  labor_category: Engineer IV
+  min_plus: 4
+  minimum: 7
+- education: Masters
+  experience: Work on Direct Client Assignments as a Team Member. Partial Leadership Role, including functional
+    leadership of junior members within your area of expertise, with Direction provided by Senior Team
+    Members and/or the Client.
+  labor_category: Engineer V
+  min_plus: 6
+  minimum: 10
+- education: Masters
+  experience: Lead Client Engineering Assignments as a Consulting Engineer, including Engineering Team
+    Coordination and Reporting. Leadership Role, including functional leadership of junior members within
+    your area of expertise, with Project Direction provided by Senior Team Members and/or the Client.
+  labor_category: Consulting Engineer
+  min_plus: 6
+  minimum: 10
+- education: Bachelors
+  experience: Lead Client Assignments as a Technical (Design) Manager, including Team Coordination and
+    Reporting. Leadership Role, including functional leadership of junior members within your area of
+    expertise, with Direction provided by Senior Team Members and/or the Client.
+  labor_category: Technical Lead III
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Lead Client Assignments as a Technical (Design) Manager, including Team Coordination and
+    Reporting. Leadership Role, including functional leadership of junior members within your area of
+    expertise, with Direction provided by Senior Team Members and/or the Client.
+  labor_category: Technical Lead IV
+  min_plus: 4
+  minimum: 7
+- education: Masters
+  experience: Lead Client Assignments as a Technical (Design) Manager, including Team Coordination and
+    Reporting. Leadership Role, including functional leadership of junior members within your area of
+    expertise, with Direction provided by Senior Team Members and/or the Client.
+  labor_category: Technical Lead V
+  min_plus: 6
+  minimum: 10
+- education: Masters
+  experience: Lead Client IA Strategic Assignments as an Architect, including Team Coordination and Reporting.
+    Leadership Role, including functional leadership of junior members within your area of expertise,
+    with Project Direction provided by Senior Team Members and/or the Client.
+  labor_category: Information Architect
+  min_plus: 6
+  minimum: 10
+- education: Bachelors
+  experience: Responsible for expert level code and  related software architecture development.  Develops
+    high-level product specifications with attention to systems integration and feasibility for  applications,  integration,  migration
+    and other  it related applications, programs and activities.  Provides subject matter expertise related
+    to developing code and software architecture.  Provide  framework development support, design, defining
+    all aspects of development and ensures all end products meet requirements of quality, security, and
+    extensibility.  Provides technical guidance to developers and engineers.  Provides guidance and supervision
+    to daily support staff.
+  labor_category: Code Architect SME
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Responsible for utilizing analytical, statistical, and programming skills to collect, analyze,
+    and interpret large data sets in/of -based systems; develops custom data models and algorithms to
+    apply to data sets; and assess effectiveness and accuracy of new data sources and data gathering techniques.
+    Uses predictive modeling to increase and optimize user experiences, system capabilities, and other
+    business outcomes. Develops processes and tools to monitor and analyze model performance and data
+    accuracy.
+  labor_category: Data Scientist
+  min_plus: 4
+  minimum: 3
+- education: Bachelors
+  experience: Designs, develops, enhances, debugs, and implements  applications. Troubleshoots production
+    problems related to applications. Researches, tests, builds, and coordinates the conversion and/or
+    integration of new products based on client requirements. Designs and develops new applications or
+    major enhancements to existing environments. Addresses problems of systems integration, compatibility,
+    and multiple platforms. Consults with project teams and end users to identify  application requirements.
+    Performs feasibility analysis on potential future projects to management.
+  labor_category: Developer I
+  min_plus: 4
+  minimum: 2
+- education: Bachelors
+  experience: Designs, develops, enhances, debugs, and implements  applications. Troubleshoots production
+    problems related to applications. Researches, tests, builds, and coordinates the conversion and/or
+    integration of new products based on client requirements. Designs and develops new applications or
+    major enhancements to existing environments. Addresses problems of systems integration, compatibility,
+    and multiple platforms. Consults with project teams and end users to identify  application requirements.
+    Performs feasibility analysis on potential future projects to management. Assists in the evaluation
+    and recommendation of application software packages, application integration and testing tools. Resolves
+    problems with software and responds to suggestions for improvements and enhancements.
+  labor_category: Developer II
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Provides support related to all  components of user interaction, including graphic user
+    interface, text, colors, buttons, etc. Develops in multiple software languages (Unity, HTML, CSS,
+    Java).  Deploys pre-defined methods, techniques, and tools to perform the job more effectively. Utilizes
+    predefined software diagnostics and debugging tools. Develops and documents software, applications
+    and other code using Agile development and other industry best practices
+  labor_category: Front End Developer
+  min_plus: 4
+  minimum: 2
+Product Management:
+- education: Bachelors
+  experience: Lead one or more multi-disciplinary agile delivery teams to deliver excellent new products
+    and/or iterations to existing products to meet user needs. Gather user requirements based on a communicable
+    understanding of diverse audience groups. Define and get stakeholder buy-in for product definition
+    and delivery approach.  Create effective, prioritized product descriptions, and delivery plans to
+    meet user needs in a cost-effective way. Interpret user research in order to make the correct product
+    decisions, noting that users do not always know what they want.  Continually keep abreast of changes
+    to user habits, preferences, and behaviors across various digital platforms and their implications
+    for successful delivery of government digital services.  Underpin the delivery and iteration of digital
+    services through effective analysis of qualitative and quantitative user data. Communicate credibly
+    with a wide range of digital delivery disciplines and talent.
+  labor_category: Product Manager
+  min_plus: 4
+  minimum: 9
+- education: Bachelors
+  experience: Responsible for defining, delivering, and managing a  product portfolio.  Manages strategic
+    product vision, product discovery, roadmaps, financials, and backlog to maximize the customer and
+    enterprise value provided by their product. Responsible for working closely with key stakeholders,
+    partners, and customers to ensure the successful definition and execution of go to market and communications
+    strategies for their products.  Interfaces with stakeholders, and peers. The role focuses on delivering
+    business value to drive  adoption, improve efficiency, and improve customer satisfaction through the
+    production of quality  products and services.
+  labor_category: Product Manager Expert
+  min_plus: 4
+  minimum: 7
+Program Management:
+- education: Masters
+  experience: Lead Client Strategic Assignments as a Consultant, including Team Coordination and Reporting.
+    Leadership Role, including functional leadership of junior members within your area of expertise,
+    with Project Direction provided by Senior Team Members and/or the Client.
+  labor_category: Strategy Consultant IV
+  min_plus: 6
+  minimum: 10
+- education: Masters
+  experience: Lead Client Strategic Assignments as a Consultant, including Team Coordination and Reporting.
+    Leadership Role, including functional leadership of junior members within your area of expertise,
+    with Project Direction provided by Senior Team Members and/or the Client.
+  labor_category: Strategy Consultant V
+  min_plus: 6
+  minimum: 15
+- education: Bachelors
+  experience: Responsible for planning and coordinating  IT related project scheduling, budgeting, and
+    administrative tasks to facilitate completion of proposals, contract deliverables, task order reviews,
+    briefings, presentations and IPR preparation; facilitates project logistics such as meetings, conference
+    rooms, conference calls, records meeting minutes and action items during meetings and performs basic
+    follow-up; assists in development of presentations.
+  labor_category: Program Support Analyst
+  min_plus: 4
+  minimum: 3
+Project Management:
+- education: Associates
+  experience: Lead Client Assignments as a Project Manager, including Team Coordination and Reporting.  Leadership
+    Role, including functional leadership of junior members within your area of expertise, with direction
+    provided by Senior Team Members and/or the client.
+  labor_category: Project Manager I
+  min_plus: 2
+  minimum: 3
+- education: Associates
+  experience: Lead Client Assignments as a Project Manager, including Team Coordination and Reporting.
+    Leadership Role, including functional leadership of junior members within your area of expertise,
+    with Direction provided by Senior Team Members and/or the Client.
+  labor_category: Project Manager II
+  min_plus: 2
+  minimum: 4
+- education: Bachelors
+  experience: Lead Client Assignments as a Project Manager, including Team Coordination and Reporting.  Leadership
+    Role, including functional leadership of junior members within your area of expertise, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: Project Manager III
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Lead Client Assignments as a Project Manager, including Team Coordination and Reporting.
+    Leadership Role, including functional leadership of junior\ members within your area of expertise,
+    with Direction provided by Senior Team Members and/or the Client
+  labor_category: Project Manager IV
+  min_plus: 4
+  minimum: 7
+- education: Masters
+  experience: Lead Client Assignments as a Project Manager, including Team Coordination and Reporting.
+    Leadership Role, including functional leadership of junior members within your area of expertise,
+    with Direction provided by Senior Team Members and/or the Client.
+  labor_category: Project Manager V
+  min_plus: 6
+  minimum: 10
+- education: Bachelors
+  experience: Deliver projects and products using the appropriate agile project management methodology,
+    learning and iterating frequently. Work with the Product Manager to define the roadmap for any given
+    product and translate this into user stories. Lead the collaborative, dynamic planning process--prioritizing
+    the work that needs to be done against the capacity and capability of the team. Matrix-managing a
+    multi-disciplinary team. Ensure all products are built to an appropriate level of quality for the
+    stage (alpha/beta/production). Actively and openly share knowledge of best practice.
+  labor_category: Delivery Manager
+  min_plus: 4
+  minimum: 8
+- education: Bachelors
+  experience: Supports  IT Client Assignments as a junior level Project Manager, including Team Coordination
+    and Reporting.  Assists in project management activities, including but not limited to; scheduling,
+    coordination, status meetings, data logs and other related  it project management functions.
+  labor_category: Project Manager Jr
+  min_plus: 4
+  minimum: 2
+- education: Bachelors
+  experience: Leads  IT Client Assignments as a Mid level Project Manager, including Team Coordination
+    and Reporting.  Assists in project management activities, including but not limited to; scheduling,
+    coordination, status meetings, data logs and other related  it project management functions.  Supports
+    lower level staff.
+  labor_category: Project Manager Mid
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Responsible for facilitating Daily Stand-Ups, Sprint Planning, Refinement, Retrospectives,
+    and other related team and cross-team meetings for -based projects; assists in facilitating Sprint
+    Demos; participates in Scrum of Scrums; maintains information radiators and tracks metrics for the
+    teams, including velocity and burndown charts in order to drive team improvement; assists the Product
+    Owner in driving stories to a ready state in preparation for the upcoming Sprint and the next Release;
+    ensures that the team has a clear and common understanding of the work that needs to be done, and
+    that the work items reflect this; fosters team collaboration and self-organization; and coaches the
+    team on Agile and Scrum principles, driving towards a goal of continuous improvement.
+  labor_category: Scrum Master
+  min_plus: 4
+  minimum: 5
+Quality Assurance:
+- education: Associates
+  experience: Work on Direct Client Assignments as a Team Member. Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: QA Engineer I
+  min_plus: 2
+  minimum: 3
+- education: Associates
+  experience: Work on Direct Client Assignments as a Team Member. Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: QA Engineer II
+  min_plus: 2
+  minimum: 4
+- education: Bachelors
+  experience: Work on Direct Client Assignments as a Team Member. Non-Leadership Position, with Direction
+    provided by Senior Team Members and/or the Client.
+  labor_category: QA Engineer III
+  min_plus: 4
+  minimum: 5
+- education: Masters
+  experience: Work on Direct Client Assignments as a Team Member. Partial Leadership Role, including functional
+    leadership of junior members within your area of expertise, with Direction provided by Senior Team
+    Members and/or the Client.
+  labor_category: QA Engineer V
+  min_plus: 6
+  minimum: 10
+- education: Bachelors
+  experience: Lead Client Assignments as a QA Manager, including Team Coordination and Reporting. Leadership
+    Role, including functional leadership of junior members within your area of expertise, with Technical/Project
+    Direction provided by Senior Team Members and/or the Client.
+  labor_category: QA Manager
+  min_plus: 4
+  minimum: 5
+- education: Bachelors
+  experience: Responsible for providing quality assurance support in the delivery of complex software
+    or  solutions by performing functional testing, integration testing, automated testing, performance
+    testing, or test plan development. Responsible for analyzing customer requirements to define tactical
+    test plans to ensure deliverable validation before deployment to customer production systems. Demonstrated
+    experience providing QA support for software or  programs in production customer environments.
+  labor_category: Quality Assurance Engineer
+  min_plus: 4
+  minimum: 3
+Security and Compliance:
+- education: Bachelors
+  experience: 'Provides expert and professional technical assistance to conduct facility security surveys;
+    review security plans; review or conduct vulnerability analyses; and conduct or assist in self-assessments
+    of all security program areas to identify deficiencies and required corrective actions for  related
+    projects, security of  environment or activities; such as  migrations, integrations, deployments and
+    other related  it security support. Provides expert support in assisting registered facilities to
+    plan their safeguards and security programs. Tasks assigned may include, but are not limited to, providing
+    technical support for the following activities:  Recommendations in the development of safeguards
+    and security plans, including the underlying vulnerability analyses and appropriate implementing procedures.  Fact
+    finding, inquiries, and administrative investigations into security incidents.  Review of safeguards
+    and/or security plans developed by facilities for compliance with government requirements.  Technical
+    assistance to facilities in developing corrective action plans to resolve survey findings, including
+    root cause analyses and remedial options.'
+  labor_category: Security SME
+  min_plus: 4
+  minimum: 10

@@ -3,7 +3,7 @@ WTForms for editing a resume stored as ``ResumeData`` (jsonresume schema).
 
 Nested sections are ``FormField``/``FieldList`` of plain ``wtforms.Form``
 subforms (only the top-level ``FlaskForm`` carries the CSRF token). Lists of
-strings are edited as one item per line. Dates are free text and parsed by
+strings are edited as one item per line. Dates are picked with a date input and parsed by
 ``FlexDate`` in ``resume_schema``.
 """
 
@@ -21,7 +21,7 @@ from wtforms.fields import (
     TextAreaField,
 )
 from wtforms.validators import Optional, Email, URL, Length
-from wtforms.widgets import TextArea
+from wtforms.widgets import DateInput, TextArea
 
 from app.models.resume_schema import ResumeData
 
@@ -45,6 +45,12 @@ class StringListField(Field):
     def process_formdata(self, valuelist: list[str]) -> None:
         text = valuelist[0] if valuelist else ""
         self.data = [line.strip() for line in text.splitlines() if line.strip()]
+
+
+class DateStringField(StringField):
+    """Date kept as a string; rendered as a native date picker (YYYY-MM-DD)."""
+
+    widget = DateInput()
 
 
 class _SubForm(Form):
@@ -80,8 +86,8 @@ class BasicsForm(_SubForm):
 class JobCategoryForm(_SubForm):
     practice_area = StringField(validators=_OPT)
     category = StringField(validators=_OPT)
-    start_date = StringField(validators=_OPT)
-    end_date = StringField(validators=_OPT)
+    start_date = DateStringField(validators=_OPT)
+    end_date = DateStringField(validators=_OPT)
     is_current = BooleanField()
 
 
@@ -89,8 +95,8 @@ class WorkForm(_SubForm):
     employer_name = StringField(validators=_OPT)
     position = StringField(validators=_OPT)
     url = StringField(validators=_URL)
-    start_date = StringField(validators=_OPT)
-    end_date = StringField(validators=_OPT)
+    start_date = DateStringField(validators=_OPT)
+    end_date = DateStringField(validators=_OPT)
     summary = TextAreaField(validators=_OPT)
     highlights = StringListField(validators=_OPT)
     categories = FieldList(FormField(JobCategoryForm), min_entries=0)
@@ -100,8 +106,8 @@ class VolunteerForm(_SubForm):
     organization = StringField(validators=_OPT)
     position = StringField(validators=_OPT)
     url = StringField(validators=_URL)
-    start_date = StringField(validators=_OPT)
-    end_date = StringField(validators=_OPT)
+    start_date = DateStringField(validators=_OPT)
+    end_date = DateStringField(validators=_OPT)
     summary = TextAreaField(validators=_OPT)
     highlights = StringListField(validators=_OPT)
 
@@ -111,22 +117,22 @@ class EducationForm(_SubForm):
     url = StringField(validators=_URL)
     area = StringField(validators=_OPT)
     degree_type = StringField(validators=_OPT)
-    start_date = StringField(validators=_OPT)
-    end_date = StringField(validators=_OPT)
+    start_date = DateStringField(validators=_OPT)
+    end_date = DateStringField(validators=_OPT)
     score = StringField(validators=_OPT)
     courses = StringListField(validators=_OPT)
 
 
 class AwardForm(_SubForm):
     title = StringField(validators=_OPT)
-    date = StringField(validators=_OPT)
+    date = DateStringField(validators=_OPT)
     awarder = StringField(validators=_OPT)
     summary = TextAreaField(validators=_OPT)
 
 
 class CertificateForm(_SubForm):
     name = StringField(validators=_OPT)
-    date = StringField(validators=_OPT)
+    date = DateStringField(validators=_OPT)
     issuer = StringField(validators=_OPT)
     url = StringField(validators=_URL)
 
@@ -134,7 +140,7 @@ class CertificateForm(_SubForm):
 class PublicationForm(_SubForm):
     name = StringField(validators=_OPT)
     publisher = StringField(validators=_OPT)
-    release_date = StringField(validators=_OPT)
+    release_date = DateStringField(validators=_OPT)
     url = StringField(validators=_URL)
     summary = TextAreaField(validators=_OPT)
 
@@ -165,8 +171,8 @@ class ProjectForm(_SubForm):
     description = TextAreaField(validators=_OPT)
     highlights = StringListField(validators=_OPT)
     keywords = StringListField(validators=_OPT)
-    start_date = StringField(validators=_OPT)
-    end_date = StringField(validators=_OPT)
+    start_date = DateStringField(validators=_OPT)
+    end_date = DateStringField(validators=_OPT)
     url = StringField(validators=_URL)
     roles = StringListField(validators=_OPT)
     company = StringField(validators=_OPT)

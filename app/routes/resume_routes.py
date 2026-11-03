@@ -26,6 +26,9 @@ from app.forms.resume_form import ResumeForm
 from app.models.resume import Resume
 from app.models.resume_schema import ResumeData
 from app.utils.file_parser import extract_text
+from app.utils.helpers import BASE_DIR, load_file
+
+CATEGORIES_FILE = BASE_DIR / "app" / "utils" / "categories.yaml"
 
 
 bp = Blueprint("resume", __name__, url_prefix="/resume")
@@ -93,7 +96,9 @@ def resume(resume_id: int):
     resume_data = dbase.session.query(Resume).filter(Resume.id == resume_id).first()
     if not resume_data:
         abort(404, "Resume not found")
-    return render_template("pages/resume.html", resume=resume_data.raw_data)
+    return render_template(
+        "pages/resume.html", rid=resume_id, resume=resume_data.raw_data
+    )
 
 
 def _get_owned_resume(resume_id: int) -> Resume:
@@ -103,12 +108,21 @@ def _get_owned_resume(resume_id: int) -> Resume:
     return resume_data
 
 
+def _render_edit(form: ResumeEditForm, resume_id: int):
+    return render_template(
+        "pages/resume_edit.html",
+        form=form,
+        resume_id=resume_id,
+        job_categories=load_file(CATEGORIES_FILE) or {},
+    )
+
+
 @bp.get("/<int:resume_id>/edit")
 @login_required
 def resume_edit(resume_id: int):
     resume_data = _get_owned_resume(resume_id)
     form = ResumeEditForm.from_resume(resume_data.raw_data)
-    return render_template("pages/resume_edit.html", form=form, resume_id=resume_id)
+    return _render_edit(form, resume_id)
 
 
 @bp.post("/<int:resume_id>/edit")
@@ -125,4 +139,4 @@ def resume_edit_process(resume_id: int):
             dbase.session.commit()
             flash("Resume updated.", "success")
             return redirect(url_for("resume.resume", resume_id=resume_id))
-    return render_template("pages/resume_edit.html", form=form, resume_id=resume_id)
+    return _render_edit(form, resume_id)

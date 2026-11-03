@@ -2,6 +2,11 @@
 {% set page_title = "About" %}
 
 {% block page_content %}
+<a
+  href="{{ url_for('resume.resume_edit', resume_id=rid) }}"
+  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 mb-4 px-4 rounded inline-block"
+>Edit resume</a>
+
 <div class="border-1 shadow-lg shadow-gray-700 rounded-lg px-6 py-4">
     <!-- Header Section -->
     <div class="text-center">

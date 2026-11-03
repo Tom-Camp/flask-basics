@@ -4979,3 +4979,22 @@ jinja2.exceptions.UndefinedError: 'form' is undefined
 2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
 2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
 2026-11-02 14:24:19,182 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-03 14:27:18,623 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.schemas
+2026-11-03 14:27:18,623 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.tables
+2026-11-03 14:27:18,623 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.types
+2026-11-03 14:27:18,623 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.constraints
+2026-11-03 14:27:18,623 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.defaults
+2026-11-03 14:27:18,623 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.comments
+2026-11-03 14:27:18,623 | INFO     | - | alembic.runtime.plugins:37 - setup plugin alembic.autogenerate.checkconstraint_byname
+2026-11-03 14:27:18,662 | INFO     | - | app:32 - Config loaded
+2026-11-03 14:27:19,060 | INFO     | - | werkzeug:97 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:5000
+2026-11-03 14:27:19,061 | INFO     | - | werkzeug:97 - [33mPress CTRL+C to quit[0m
+2026-11-03 14:27:20,723 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [03/Nov/2026 14:27:20] "GET /resume/1/edit HTTP/1.1" 200 -
+2026-11-03 14:27:20,845 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [03/Nov/2026 14:27:20] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-03 14:27:20,845 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [03/Nov/2026 14:27:20] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -
+2026-11-03 14:27:21,005 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [03/Nov/2026 14:27:21] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+2026-11-03 14:28:03,710 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [03/Nov/2026 14:28:03] "[32mPOST /resume/1/edit HTTP/1.1[0m" 302 -
+2026-11-03 14:28:03,727 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [03/Nov/2026 14:28:03] "GET /resume/1 HTTP/1.1" 200 -
+2026-11-03 14:28:03,844 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [03/Nov/2026 14:28:03] "[36mGET /static/css/custom.css HTTP/1.1[0m" 304 -
+2026-11-03 14:28:03,845 | INFO     | - | werkzeug:97 - 127.0.0.1 - - [03/Nov/2026 14:28:03] "[36mGET /static/images/CA-Short-Logo-Red.svg HTTP/1.1[0m" 304 -

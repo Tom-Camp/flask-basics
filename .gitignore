@@ -25,3 +25,4 @@ htmlcov/
 .vscode/
 CLAUDE.md
 resume_uploads
+logs/

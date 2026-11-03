@@ -13,7 +13,35 @@
             </div>
         </fieldset>
     {% elif field.type == "FieldList" %}
-        {{ render_list(field.short_name, field) }}
+        {{ render_list(field.short_name, field, nested=true) }}
+    {% elif field.short_name in ("practice_area", "category") and job_categories %}
+        <div>
+            <label for="{{ field.id }}" class="block text-gray-700 text-sm font-bold mb-1">{{ "Top-level category" if field.short_name == "practice_area" else "Category" }}</label>
+            {% if field.short_name == "practice_area" %}
+                <select name="{{ field.name }}" id="{{ field.id }}" data-practice-area class="{{ input_cls }}">
+                    <option value="">Select a category</option>
+                    {% for area in job_categories %}
+                        <option value="{{ area }}" {{ "selected" if field.data == area }}>{{ area }}</option>
+                    {% endfor %}
+                    {% if field.data and field.data not in job_categories %}
+                        <option value="{{ field.data }}" selected>{{ field.data }}</option>
+                    {% endif %}
+                </select>
+            {% else %}
+                <select name="{{ field.name }}" id="{{ field.id }}" data-category data-current="{{ field.data or '' }}" class="{{ input_cls }}">
+                    <option value="">Select a value</option>
+                    {% for area, values in job_categories.items() %}
+                        {% for value in values %}
+                            <option value="{{ value }}" data-area="{{ area }}">{{ value }}</option>
+                        {% endfor %}
+                    {% endfor %}
+                    {% if field.data %}<option value="{{ field.data }}" data-legacy>{{ field.data }}</option>{% endif %}
+                </select>
+            {% endif %}
+            {% for error in field.errors %}
+                <p class="text-red-500 text-xs mt-1">{{ error }}</p>
+            {% endfor %}
+        </div>
     {% elif field.type == "BooleanField" %}
         <label class="flex items-center gap-2 text-sm text-gray-700">
             {{ field() }} {{ field.label.text }}
@@ -41,12 +69,17 @@
     </div>
 {% endmacro %}
 
-{% macro render_list(name, field) %}
+{% macro render_list(name, field, nested=false) %}
     <div class="md:col-span-2" data-list="{{ field.name }}">
         <div data-entries>
             {% for entry in field %}{{ render_entry(entry) }}{% endfor %}
         </div>
         <button type="button" data-add class="{{ btn_cls }} text-sm">Add {{ name|replace("_", " ") }} entry</button>
+        {% if nested %}
+            <template data-nested-template>
+                {{ render_entry({"form": field.unbound_field.args[0](prefix=field.name ~ "-__i__-")}) }}
+            </template>
+        {% endif %}
     </div>
 {% endmacro %}
 
@@ -87,7 +120,8 @@
         if (e.target.matches("[data-remove]")) {
             e.target.closest("[data-entry]").remove();
         } else if (e.target.matches("[data-add]")) {
-            const tpl = document.querySelector(`template[data-template="${list.dataset.list}"]`);
+            const tpl = list.querySelector(":scope > template[data-nested-template]")
+                || document.querySelector(`template[data-template="${list.dataset.list}"]`);
             if (!tpl) return;
             const container = list.querySelector("[data-entries]");
             const indices = [...container.querySelectorAll(":scope > [data-entry]")].map((el) => {
@@ -98,8 +132,34 @@
             const next = Math.max(-1, ...indices) + 1;
             const wrapper = document.createElement("div");
             wrapper.innerHTML = tpl.innerHTML.replaceAll("__i__", next);
-            container.append(...wrapper.children);
+            const added = [...wrapper.children];
+            container.append(...added);
+            added.forEach(syncCategories);
         }
     });
+
+    // Restrict each category <select> to values under the chosen top-level category.
+    function syncCategories(root) {
+        root.querySelectorAll("[data-category]").forEach((cat) => {
+            const area = cat.closest("[data-entry]").querySelector("[data-practice-area]");
+            if (!area) return;
+            const current = cat.value || cat.dataset.current;
+            [...cat.options].forEach((o) => {
+                if (!o.value) return;
+                const show = o.hasAttribute("data-legacy") ? o.value === current : o.dataset.area === area.value;
+                o.hidden = o.disabled = !show;
+            });
+            const opt = [...cat.options].find((o) => o.value === current && !o.disabled);
+            cat.value = opt ? current : "";
+        });
+    }
+    document.addEventListener("change", (e) => {
+        if (!e.target.matches("[data-practice-area]")) return;
+        const cat = e.target.closest("[data-entry]").querySelector("[data-category]");
+        if (cat) cat.dataset.current = "";
+        if (cat) cat.value = "";
+        syncCategories(e.target.closest("[data-entry]"));
+    });
+    syncCategories(document);
 </script>
 {% endblock %}

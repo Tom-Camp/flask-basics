@@ -1,7 +1,7 @@
 import os
 from pathlib import Path
 
-from app.utils.helpers import BASE_DIR, load_json
+from app.utils.helpers import BASE_DIR, load_file
 
 
 class Config:
@@ -30,7 +30,7 @@ class Config:
         or BASE_DIR / "GOOGLE_APPLICATION_CREDENTIALS.json"
     )
     GOOGLE_APPLICATION_CREDENTIALS = (
-        load_json(_credentials_path) if _credentials_path.is_file() else {}
+        load_file(_credentials_path) if _credentials_path.is_file() else {}
     )
 
 
