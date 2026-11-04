@@ -3,6 +3,10 @@
  * Tailwind itself is loaded via the CDN script in app/templates/base.html.
  */
 
+html {
+  font-size: 16px;
+}
+
 code {
   font-family: ui-monospace, "SFMono-Regular", Menlo, monospace;
   font-size: 85%;
@@ -11,7 +15,23 @@ code {
   border-radius: 6px;
 }
 
-
 .logo {
     height: 100%;
+}
+
+.usa-alert {
+  margin-top: 1rem;
+  border-left: .5rem solid #adadad;
+  color: #1b1b1b;
+  white-space: pre-line;
+}
+
+.error {
+  background-color: #f4e3db;
+  border-left-color: #d54309;
+}
+
+.warning {
+  background-color: #faf3d1;
+  border-left-color: #ffbe2e;
 }

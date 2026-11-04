@@ -10,6 +10,15 @@ def test_static_route_registered(app):
     assert "static" in rules
 
 
+def test_missing_resume_returns_404(app, client):
+    app.config["LOGIN_DISABLED"] = True
+
+    response = client.get("/resume/999")
+
+    assert response.status_code == 404
+    assert "Resume not found" in response.text
+
+
 def test_about_page_renders_through_page_template(client):
     response = client.get("/about")
     body = response.get_data(as_text=True)

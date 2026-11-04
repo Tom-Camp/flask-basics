@@ -41,6 +41,22 @@ def allowed_file(filename: str) -> bool:
     return Path(filename).suffix in ALLOWED_EXTENSIONS
 
 
+def _get_owned_resume(resume_id: int) -> Resume:
+    resume_data = dbase.session.get(Resume, resume_id)
+    if not resume_data or resume_data.user_id != current_user.id:
+        abort(404, "Resume not found")
+    return resume_data
+
+
+def _render_edit(form: ResumeEditForm, resume_id: int):
+    return render_template(
+        "pages/resume_edit.html",
+        form=form,
+        resume_id=resume_id,
+        job_categories=load_file(CATEGORIES_FILE) or {},
+    )
+
+
 @bp.post("/upload")
 @login_required
 def process_resume():
@@ -96,24 +112,20 @@ def resume(resume_id: int):
     resume_data = dbase.session.query(Resume).filter(Resume.id == resume_id).first()
     if not resume_data:
         abort(404, "Resume not found")
+    no_categories: list[str] = []
+    for experience in resume_data.raw_data.get("work", []):
+        if not experience.get("categories", []):
+            no_categories.append(
+                f"{experience.get('position', '')} at {experience.get('employer_name', 'UNKNOWN')}"
+            )
+    if no_categories:
+        flash(
+            "Categories are required in order to calculate the LCATS."
+            f"Categories missing for:\n\n {'\n'.join(no_categories)}. ",
+            "warning",
+        )
     return render_template(
         "pages/resume.html", rid=resume_id, resume=resume_data.raw_data
-    )
-
-
-def _get_owned_resume(resume_id: int) -> Resume:
-    resume_data = dbase.session.get(Resume, resume_id)
-    if not resume_data or resume_data.user_id != current_user.id:
-        abort(404, "Resume not found")
-    return resume_data
-
-
-def _render_edit(form: ResumeEditForm, resume_id: int):
-    return render_template(
-        "pages/resume_edit.html",
-        form=form,
-        resume_id=resume_id,
-        job_categories=load_file(CATEGORIES_FILE) or {},
     )
 
 
@@ -121,6 +133,13 @@ def _render_edit(form: ResumeEditForm, resume_id: int):
 @login_required
 def resume_edit(resume_id: int):
     resume_data = _get_owned_resume(resume_id)
+    for experience in resume_data.raw_data.get("work", []):
+        if not experience.get("categories", []):
+            flash(
+                f"No categories for {experience.get('position')} at {experience.get('employer_name')}",
+                "warning",
+            )
+
     form = ResumeEditForm.from_resume(resume_data.raw_data)
     return _render_edit(form, resume_id)
 
