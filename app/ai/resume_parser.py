@@ -16,19 +16,31 @@ from app.models.resume_schema import ResumeData
 
 log = logging.getLogger(__name__)
 
-_agent = Agent(
-    GoogleModel(os.environ.get("GEMINI_AGENT", "gemini-3.5-flash-lite-preview")),
-    output_type=ResumeData,
-    system_prompt=(
-        "You are a resume parser. Extract all available information from the provided "
-        "resume text into the structured output format. Use YYYY-MM-DD or YYYY-MM for "
-        "dates where possible. "
-        "For work experience, always extract BOTH start_date AND end_date when a date "
-        "range is present (e.g. '2013 – 2015' means start_date='2013' end_date='2015'). "
-        "Only set end_date to null for the current/ongoing job. "
-        "Omit fields that are not present in the resume rather than guessing."
-    ),
+_SYSTEM_PROMPT = (
+    "You are a resume parser. Extract all available information from the provided "
+    "resume text into the structured output format. Use YYYY-MM-DD or YYYY-MM for "
+    "dates where possible. "
+    "For work experience, always extract BOTH start_date AND end_date when a date "
+    "range is present (e.g. '2013 – 2015' means start_date='2013' end_date='2015'). "
+    "Only set end_date to null for the current/ongoing job. "
+    "Omit fields that are not present in the resume rather than guessing."
 )
+
+_agent: Agent[None, ResumeData] | None = None
+
+
+def _get_agent() -> Agent[None, ResumeData]:
+    """Build the Gemini agent on first use so importing needs no API key."""
+    global _agent
+    if _agent is None:
+        _agent = Agent[None, ResumeData](
+            model=GoogleModel(
+                os.environ.get("GEMINI_AGENT", "gemini-3.5-flash-lite-preview")
+            ),
+            output_type=ResumeData,
+            system_prompt=_SYSTEM_PROMPT,
+        )
+    return _agent
 
 
 def _infer_end_dates(data: ResumeData) -> ResumeData:
@@ -80,7 +92,7 @@ async def parse_resume_text(text: str) -> ResumeData | str:
     """
     log.info("resume_parse.start")
     try:
-        result = await _agent.run(f"Parse this resume:\n\n{text}")
+        result = await _get_agent().run(f"Parse this resume:\n\n{text}")
         data = _infer_end_dates(result.output)
         log.info("resume_parse.complete")
         return data

@@ -37,6 +37,11 @@ def is_safe_redirect(target: str | None) -> bool:
     return not parts.scheme and not parts.netloc
 
 
+def _google_configured() -> bool:
+    cfg = current_app.config
+    return bool(cfg["GOOGLE_CLIENT_ID"] and cfg["GOOGLE_CLIENT_SECRET"])
+
+
 @bp.route("/login")
 def login():
     if current_user.is_authenticated:
@@ -44,14 +49,14 @@ def login():
     return render_template(
         "pages/login.html",
         next=request.args.get("next", ""),
-        google_configured=bool(current_app.config["GOOGLE_APPLICATION_CREDENTIALS"]),
+        google_configured=_google_configured(),
     )
 
 
 @bp.route("/login/google")
 def login_google():
     """Start the OAuth flow: redirect the browser to Google's consent screen."""
-    if not current_app.config["GOOGLE_APPLICATION_CREDENTIALS"]:
+    if not _google_configured():
         abort(503, "Google sign-in is not configured (set GOOGLE_CLIENT_ID).")
 
     next_url = request.args.get("next")
