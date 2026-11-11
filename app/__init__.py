@@ -2,6 +2,7 @@ import os
 from datetime import datetime, timezone
 
 from flask import Flask, render_template
+from lcat_calc import CatalogRegistry
 
 from werkzeug.exceptions import HTTPException
 
@@ -23,6 +24,12 @@ def create_app(config_name=None):
 
     app.config["UPLOAD_FOLDER"] = BASE_DIR / app.config["UPLOAD_FOLDER"]
     app.config["UPLOAD_FOLDER"].mkdir(parents=True, exist_ok=True)
+
+    # Catalogs are validated at startup so a bad definition fails fast; path is relative to the repo root.
+    catalogs_dir = app.config["LCAT_CATALOGS_DIR"]
+    app.extensions["lcat_catalogs"] = CatalogRegistry(
+        BASE_DIR / catalogs_dir if catalogs_dir else None
+    )
 
     dbase.init_app(app)
     migrate.init_app(app, dbase)

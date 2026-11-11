@@ -4,13 +4,24 @@ directory of this distribution and at https://github.com/CivicActions/flask-basi
 """
 
 import lcat_calc
-from lcat_calc import EducationLevel, Job, WorkCategory
+from flask import current_app
+from lcat_calc import CatalogRegistry, EducationLevel, Job, WorkCategory
 
 from app.models.resume_schema import ResumeData
 
 
-def derive_lcats(resume: ResumeData) -> dict[str, list[str]]:
-    """Map a resume onto the lcat_calc input types and return {lcat name: supporting jobs}."""
+def get_catalogs() -> CatalogRegistry:
+    return current_app.extensions["lcat_catalogs"]
+
+
+def derive_lcats(
+    resume: ResumeData, catalog: str = lcat_calc.DEFAULT_CATALOG
+) -> dict[str, list[str]]:
+    """
+    Map a resume onto the lcat_calc input types and return {lcat name: supporting jobs}.
+    :raises KeyError: if the catalog does not exist
+    """
+    index = get_catalogs().index(catalog)
     jobs = [
         Job(
             position=work.position,
@@ -31,4 +42,4 @@ def derive_lcats(resume: ResumeData) -> dict[str, list[str]]:
         EducationLevel(edu.degree_type.value) if edu.degree_type else None
         for edu in resume.education
     )
-    return lcat_calc.derive_lcats(jobs, education)
+    return lcat_calc.derive_lcats(jobs, education, index=index)

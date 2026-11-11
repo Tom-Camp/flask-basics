@@ -16,6 +16,8 @@ class Config:
     FLASK_APP = os.environ.get("FLASK_APP", "app")
     FLASK_DEBUG = os.environ.get("FLASK_DEBUG", False)
     UPLOAD_FOLDER = os.environ.get("UPLOAD_FOLDER", "uploads")
+    # Directory of extra LCAT catalogs (one subfolder each); blank means only the bundled one.
+    LCAT_CATALOGS_DIR = os.environ.get("LCAT_CATALOGS_DIR", "").strip()
 
     # OAuth 2.0 "Web application" client credentials from Google Cloud
     # Console (APIs & Services -> Credentials). Sign-in uses these, not

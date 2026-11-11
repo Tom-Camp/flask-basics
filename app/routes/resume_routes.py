@@ -16,7 +16,7 @@ from flask import (
     abort,
 )
 from flask_login import login_required, current_user
-from lcat_calc import load_categories
+from lcat_calc import DEFAULT_CATALOG
 from pydantic import ValidationError
 from werkzeug.utils import secure_filename
 from urllib.parse import urlparse
@@ -27,7 +27,7 @@ from app.forms.resume_edit_form import ResumeEditForm
 from app.forms.resume_form import ResumeForm
 from app.models.resume import Resume
 from app.models.resume_schema import ResumeData
-from app.services.lcat_service import derive_lcats
+from app.services.lcat_service import derive_lcats, get_catalogs
 from app.utils.file_parser import extract_text
 
 
@@ -53,7 +53,7 @@ def _render_edit(form: ResumeEditForm, resume_id: int):
         "pages/resume_edit.html",
         form=form,
         resume_id=resume_id,
-        job_categories=load_categories(),
+        job_categories=get_catalogs().all_categories(),
     )
 
 
@@ -185,8 +185,16 @@ def get_lcats(resume_id: int):
     if needs_categories:
         return safe_back()
 
-    lcats = derive_lcats(resume=resume_obj)
-    current_user.lcats = ",".join(lcats)
+    catalog = request.args.get("catalog", DEFAULT_CATALOG)
+    if catalog not in get_catalogs().names():
+        abort(404, "Catalog not found")
+
+    lcats = derive_lcats(resume=resume_obj, catalog=catalog)
+    # Reassign rather than mutate so SQLAlchemy sees the JSON change.
+    current_user.lcat_results = {
+        **(current_user.lcat_results or {}),
+        catalog: list(lcats),
+    }
     dbase.session.commit()
-    flash(f"Found {len(lcats)} LCATs.", "success")
+    flash(f"Found {len(lcats)} LCATs in the {catalog} catalog.", "success")
     return redirect(url_for("user.user_page"))

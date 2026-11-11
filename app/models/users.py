@@ -2,7 +2,7 @@ from datetime import datetime
 from typing import TYPE_CHECKING
 
 from flask_login import UserMixin
-from sqlalchemy import DateTime, String
+from sqlalchemy import DateTime, JSON, String
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from app.extensions import dbase, login_manager
@@ -30,7 +30,8 @@ class User(UserMixin, BaseModel):
     email_verified: Mapped[bool] = mapped_column(default=False)
     name: Mapped[str | None] = mapped_column(String(255))
     picture: Mapped[str | None] = mapped_column(String(2048))
-    lcats: Mapped[str | None] = mapped_column(String(255))
+    # {catalog name: [lcat names]}; replaced wholesale on each calculation.
+    lcat_results: Mapped[dict[str, list[str]]] = mapped_column(JSON, default=dict)
     last_login_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
     resume: Mapped["Resume"] = relationship(
         back_populates="user",

@@ -1,3 +1,4 @@
+from lcat_calc.catalogs import DEFAULT_CATALOG, CatalogRegistry
 from lcat_calc.calculator import (
     calculate_lcats,
     derive_lcats,
@@ -20,6 +21,8 @@ from lcat_calc.models import (
 )
 
 __all__ = [
+    "DEFAULT_CATALOG",
+    "CatalogRegistry",
     "EducationLevel",
     "Job",
     "JobTerm",

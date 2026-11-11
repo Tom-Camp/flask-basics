@@ -33,13 +33,6 @@
                         <div class="">
                             <div class="p-5">
                                 <p class="font-bold uppercase text-gray-600">{{ user.resume.filename }}</p>
-                                {% if user.lcats %}
-                                    <ul class="list-disc list-inside">
-                                        {% for cat in lcats %}
-                                            <li>{{ cat }}</li>
-                                        {% endfor %}
-                                    </ul>
-                                {% endif %}
                                 <p class="text-gray-700 text-sm">
                                     Updated date: {{ user.resume.updated_at.strftime('%Y-%m-%d %H:%M') }}<br>
                                 </p>
@@ -75,12 +68,17 @@
                     <h5 class="font-bold uppercase text-gray-600">LCATs</h5>
                 </div>
                     <div class="p-5">
-                        {% if lcats %}
-                            <ul class="mb-2 pb-2 border-b">
-                                {% for cat in lcats %}
-                                    <li>{{ cat }}</li>
-                                {% endfor %}
-                            </ul>
+                        {% if lcat_results %}
+                            {% for catalog, cats in lcat_results.items() %}
+                                <h6 class="font-bold text-gray-600">{{ catalog }}</h6>
+                                <ul class="mb-2 pb-2 border-b">
+                                    {% for cat in cats %}
+                                        <li>{{ cat }}</li>
+                                    {% else %}
+                                        <li class="text-gray-500">No matching LCATs</li>
+                                    {% endfor %}
+                                </ul>
+                            {% endfor %}
                             <p class="text-gray-700 text-base">
                                 Updated date: {{ user.resume.updated_at.strftime('%Y-%m-%d %H:%M') }}<br>
                                 Uploaded date: {{ user.resume.created_at.strftime('%Y-%m-%d %H:%M') }}
@@ -96,8 +94,10 @@
                                                 <a class="px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-all"
                                                    href="{{ url_for('resume.resume_edit', resume_id=user.resume.id) }}">Update Categories</a>
                                             {% else %}
-                                                <a class="px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-all"
-                                                   href="{{ url_for('resume.get_lcats', resume_id=user.resume.id) }}">Calculate LCATs</a>
+                                                {% for catalog in catalogs %}
+                                                    <a class="px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-all"
+                                                       href="{{ url_for('resume.get_lcats', resume_id=user.resume.id, catalog=catalog) }}">Calculate LCATs{% if catalogs|length > 1 %} ({{ catalog }}){% endif %}</a>
+                                                {% endfor %}
                                             {% endif %}
                                         </div>
                                 </div>
