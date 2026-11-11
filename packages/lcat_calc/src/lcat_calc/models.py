@@ -33,8 +33,11 @@ class Job(BaseModel):
 
 
 class JobTerm(BaseModel):
-    term: int
+    """Experience in one category: `term` is days with overlapping spans counted once."""
+
+    term: int = 0
     jobs: list[str] = Field(default_factory=list)
+    spans: list[tuple[datetime, datetime]] = Field(default_factory=list)
 
 
 class CategoryRef(BaseModel, frozen=True):

@@ -5,7 +5,10 @@ Matches a candidate's work experience and education to labor categories (LCATs).
 ## How it works
 
 An LCAT lists the categories it applies to, a minimum education level, and minimum years of experience.
-A candidate qualifies when the **longest term in any one matching category** meets:
+The time covered by **all jobs** in any of the LCAT's categories is totaled: four jobs adding up to 10 years
+in one category count as 10 years, and time in several of the LCAT's categories is added together. Dates that
+overlap (concurrent jobs, or one job tagged with several of the LCAT's categories) are counted once.
+A candidate qualifies when that total meets:
 
 ```
 min_years + extra_years_for_education
@@ -13,7 +16,6 @@ min_years + extra_years_for_education
 
 - Extra years are 2 per education level the candidate is below the LCAT requirement
   (`other < associate < bachelors < masters < doctorate`). No degree counts as `other`.
-- The longest single category is used rather than a sum, because one job can carry several categories.
 - Jobs are matched on `(practice_area, category)`. A job whose category has no start date is skipped;
   a missing end date means the job is current.
 
@@ -66,7 +68,7 @@ from pathlib import Path
 from lcat_calc import CatalogRegistry, derive_lcats
 
 registry = CatalogRegistry(Path("catalogs"))
-registry.names()                      # ["default", "acme"]
+registry.names()  # ["default", "acme"]
 derive_lcats(jobs, education, index=registry.index("acme"))
 ```
 
@@ -105,6 +107,10 @@ lcats:
 Practice areas are not repeated in `lcats.yaml`; each category name is looked up in `categories.yaml`.
 A category listed under several practice areas is indexed under each. Loading raises `ValueError` for an
 unknown category or experience template, and pydantic rejects an invalid `education` value.
+
+## API reference
+
+See [docs/api.md](docs/api.md) for every public function, class, and exception.
 
 ## Development
 

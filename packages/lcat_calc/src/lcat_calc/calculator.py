@@ -23,6 +23,24 @@ def get_experience_days(cat: WorkCategory, now: datetime | None = None) -> int:
     return (end - cat.start_date).days
 
 
+def merge_spans_days(spans: Iterable[tuple[datetime, datetime]]) -> int:
+    """Days covered by the spans, counting overlapping time once."""
+    total = 0
+    cur_start: datetime | None = None
+    cur_end: datetime | None = None
+    for start, end in sorted(s for s in spans if s[1] > s[0]):
+        if cur_start is None or cur_end is None:
+            cur_start, cur_end = start, end
+        elif start <= cur_end:
+            cur_end = max(cur_end, end)
+        else:
+            total += (cur_end - cur_start).days
+            cur_start, cur_end = start, end
+    if cur_start is not None and cur_end is not None:
+        total += (cur_end - cur_start).days
+    return total
+
+
 def get_additional_education_years(
     lcat_education: EducationLevel, user_education: EducationLevel | None
 ) -> int:
@@ -36,7 +54,7 @@ def get_category_terms(
 ) -> dict[str, dict[str, JobTerm]]:
     """
     Total the days worked per practice area and category, with the jobs that account for them.
-    Categories without a start date are skipped.
+    Overlapping jobs in the same category are counted once. Categories without a start date are skipped.
     :return: {practice_area: {category: JobTerm}}
     """
     terms: dict[str, dict[str, JobTerm]] = {}
@@ -45,9 +63,12 @@ def get_category_terms(
             if not cat.start_date:
                 continue
             job_term = terms.setdefault(cat.practice_area, {}).setdefault(
-                cat.category, JobTerm(term=0)
+                cat.category, JobTerm()
             )
-            job_term.term += get_experience_days(cat, now)
+            job_term.spans.append(
+                (cat.start_date, cat.end_date or now or datetime.now())
+            )
+            job_term.term = merge_spans_days(job_term.spans)
             start = cat.start_date.strftime("%Y-%m-%d")
             end = cat.end_date.strftime("%Y-%m-%d") if cat.end_date else "current"
             job_term.jobs.append(
@@ -62,9 +83,9 @@ def calculate_lcats(
     index: LcatIndex | None = None,
 ) -> dict[str, list[str]]:
     """
-    Find every LCAT the candidate qualifies for. An LCAT matches when the longest term in any one of its
+    Find every LCAT the candidate qualifies for. An LCAT matches when the time covered by jobs in any of its
     categories meets the LCAT minimum years plus any years needed to offset a lower education level.
-    The longest single category is used rather than a sum, since one job can carry several categories.
+    Time is summed across the LCAT's categories and jobs, with overlapping dates counted once.
     :return: {lcat name: jobs that support it}
     """
     index = index or default_index()
@@ -79,7 +100,8 @@ def calculate_lcats(
         required_years = lcat.min_years + get_additional_education_years(
             lcat.education, education
         )
-        if max(t.term for t in matched) / 365 >= required_years:
+        days = merge_spans_days(span for t in matched for span in t.spans)
+        if days / 365 >= required_years:
             assigned[name] = list(dict.fromkeys(job for t in matched for job in t.jobs))
     return assigned
 

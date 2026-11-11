@@ -138,3 +138,50 @@ def test_registry_unknown_catalog_and_merged_categories(tmp_path):
         registry.index("nope")
     merged = registry.all_categories()
     assert "Widgets" in merged["Ops"] and "Visual Design" in merged["Design"]
+
+
+def test_jobs_in_one_category_are_summed():
+    jobs = [_job("Visual Design", "Design", 2)]
+    jobs.append(
+        Job(
+            position="Dev",
+            employer="B",
+            categories=[
+                WorkCategory(
+                    practice_area="Design",
+                    category="Visual Design",
+                    start_date=datetime(2010, 1, 1),
+                    end_date=datetime(2012, 1, 1),
+                )
+            ],
+        )
+    )
+    # 2 + 2 years >= 3 required with an associate degree.
+    assert "Visual Designer III" in derive_lcats(jobs, EducationLevel.ASSOCIATE)
+
+
+def test_overlapping_jobs_counted_once():
+    jobs = [_job("Visual Design", "Design", 2), _job("Visual Design", "Design", 2)]
+    assert "Visual Designer III" not in derive_lcats(jobs, EducationLevel.ASSOCIATE)
+
+
+def test_categories_of_one_lcat_are_combined_without_double_counting():
+    def cat_job(category, start, end):
+        wc = WorkCategory(
+            practice_area="Design",
+            category=category,
+            start_date=datetime(start, 1, 1),
+            end_date=datetime(end, 1, 1),
+        )
+        return Job(position="Dev", employer="Acme", categories=[wc])
+
+    # Visual Design (2 yrs) + Theme Designer (2 yrs) in different periods: 4 >= 3.
+    separate = [
+        cat_job("Visual Design", 2000, 2002),
+        cat_job("Theme Designer", 2005, 2007),
+    ]
+    assert "Visual Designer III" in derive_lcats(separate, EducationLevel.ASSOCIATE)
+
+    # The same 2 years tagged with both categories is still 2 years.
+    same = [cat_job("Visual Design", 2000, 2002), cat_job("Theme Designer", 2000, 2002)]
+    assert "Visual Designer III" not in derive_lcats(same, EducationLevel.ASSOCIATE)
