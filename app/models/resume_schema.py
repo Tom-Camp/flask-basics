@@ -8,6 +8,7 @@ Schema reference: https://github.com/jsonresume/resume-schema/blob/master/schema
 """
 
 from datetime import datetime
+from enum import StrEnum, auto
 from typing import Annotated
 
 from dateutil import parser as _dateutil
@@ -29,6 +30,14 @@ def _parse_flexible_date(v: object) -> datetime | None:
         return _dateutil.parse(s, default=datetime(1900, 1, 1))
     except (ValueError, OverflowError):
         return None
+
+
+class EducationLevel(StrEnum):
+    ASSOCIATE = auto()
+    BACHELORS = auto()
+    MASTERS = auto()
+    DOCTORATE = auto()
+    OTHER = auto()
 
 
 FlexDate = Annotated[
@@ -100,7 +109,7 @@ class Education(BaseModel):
     institution: str | None = None
     url: str | None = None
     area: str | None = None
-    degree_type: str | None = None
+    degree_type: EducationLevel | None = None
     start_date: FlexDate = None
     end_date: FlexDate = None
     score: str | None = None

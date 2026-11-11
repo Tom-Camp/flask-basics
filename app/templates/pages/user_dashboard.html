@@ -1,0 +1,110 @@
+{#
+    Renders a DB-backed Page (app/models/post.py), looked up by slug.
+    Used by the `/p/<slug>` route in app/main/routes.py.
+
+    SECURITY NOTE: `page.body` is rendered with the `|safe` filter, which
+    disables Jinja's automatic HTML escaping. That's intentional here —
+    page bodies are meant to contain HTML markup — but it means anyone who
+    can write to the `pages` table can inject arbitrary HTML/JS. Only wire
+    this up to trusted input (e.g. an admin-only editing route) unless you
+    add a markup sanitizer (e.g. bleach) in front of it first.
+#}
+{% extends "index.html" %}
+{% set page_title = user.name %}
+
+{% block page_content %}
+    <div class="flex flex-wrap">
+        <div class="flex flex-row flex-wrap flex-grow mt-2 mr-2">
+            <div class="">
+                <div class="border-b p-3">
+                    <h5 class="font-bold uppercase text-gray-600">Resume</h5>
+                </div>
+                <div class="p-5">
+                    {% if not user.resume %}
+                        <div class="">
+                            <div class="p-5">
+                                <a
+                                  href="{{ url_for('resume.upload_resume') }}"
+                                  class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mb-4 rounded"
+                                >Upload a resume</a>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="">
+                            <div class="p-5">
+                                <p class="font-bold uppercase text-gray-600">{{ user.resume.filename }}</p>
+                                {% if user.lcats %}
+                                    <ul class="list-disc list-inside">
+                                        {% for cat in lcats %}
+                                            <li>{{ cat }}</li>
+                                        {% endfor %}
+                                    </ul>
+                                {% endif %}
+                                <p class="text-gray-700 text-sm">
+                                    Updated date: {{ user.resume.updated_at.strftime('%Y-%m-%d %H:%M') }}<br>
+                                </p>
+                            </div>
+                            <div class="p-5">
+                                <div class="mt-2" role="group">
+                                    <div class="flex justify-center">
+                                        <div class="inline-flex overflow-hidden rounded-lg border border-gray-300 divide-x divide-gray-300 bg-white">
+                                            <a href="{{ url_for('resume.resume', resume_id=user.resume.id) }}"
+                                                class="px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-all">
+                                                View
+                                            </a>
+                                            <a href="{{ url_for('resume.resume_edit', resume_id=user.resume.id) }}"
+                                                class="px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-all">
+                                                Edit
+                                            </a>
+                                            <a href="#"
+                                                class="px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-all">
+                                                Revisions
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-row flex-wrap flex-grow mt-2">
+            <div class="">
+                <div class="border-b p-3">
+                    <h5 class="font-bold uppercase text-gray-600">LCATs</h5>
+                </div>
+                    <div class="p-5">
+                        {% if lcats %}
+                            <ul class="mb-2 pb-2 border-b">
+                                {% for cat in lcats %}
+                                    <li>{{ cat }}</li>
+                                {% endfor %}
+                            </ul>
+                            <p class="text-gray-700 text-base">
+                                Updated date: {{ user.resume.updated_at.strftime('%Y-%m-%d %H:%M') }}<br>
+                                Uploaded date: {{ user.resume.created_at.strftime('%Y-%m-%d %H:%M') }}
+                            </p>
+                        {% else %}
+                            <p class="text-black text-base">No LCATs yet</p>
+                        {% endif %}
+                        {% if user.resume %}
+                            <div class="mt-2" role="group">
+                                <div class="flex justify-center">
+                                        <div class="inline-flex overflow-hidden rounded-lg border border-gray-300 divide-x divide-gray-300 bg-white">
+                                            {% if needs_categories %}
+                                                <a class="px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-all"
+                                                   href="{{ url_for('resume.resume_edit', resume_id=user.resume.id) }}">Update Categories</a>
+                                            {% else %}
+                                                <a class="px-4 py-3 text-sm font-medium text-gray-900 hover:bg-gray-900 hover:text-white transition-all"
+                                                   href="{{ url_for('resume.get_lcats', resume_id=user.resume.id) }}">Calculate LCATs</a>
+                                            {% endif %}
+                                        </div>
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

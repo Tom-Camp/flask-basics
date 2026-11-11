@@ -18,7 +18,15 @@ dependencies = [
     "python-slugify>=9.0.0",
     "requests>=2.34.2",
     "ruamel-yaml>=0.19.1",
+    "email-validator>=2.3.0",
+    "lcat-calc",
 ]
+
+[tool.uv.workspace]
+members = ["packages/*"]
+
+[tool.uv.sources]
+lcat-calc = { workspace = true }
 
 [dependency-groups]
 dev = [

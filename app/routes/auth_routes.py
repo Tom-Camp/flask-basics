@@ -93,7 +93,7 @@ def google_callback():
 
     next_url = session.pop(NEXT_URL_KEY, None)
     if not is_safe_redirect(next_url):
-        next_url = url_for("main.home_page")
+        next_url = url_for("user.user_page")
     return redirect(next_url)
 
 

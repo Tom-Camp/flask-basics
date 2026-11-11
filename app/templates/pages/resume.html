@@ -22,7 +22,7 @@
     <!-- About Me Section -->
     <section class="my-10">
         <h2 class="text-3xl font-semibold">About Me</h2>
-        <p class="mt-3 text-gray-200 leading-relaxed">
+        <p class="mt-3 text-gray-700 leading-relaxed">
             {{ resume.basics.summary if resume.basics.summary }}
         </p>
     </section>
@@ -71,7 +71,9 @@
         <h2 class="text-3xl font-semibold">Education</h2>
         {% for education in resume.education %}
             <div class="mt-5">
-                <h3 class="text-xl font-bold text-gray-900">{{ education.degree_type }} in {{ education.area }}</h3>
+                <h3 class="text-xl font-bold text-gray-900">
+                    {{ education.degree_type[0]|upper }}{{ education.degree_type[1:] }} in {{ education.area }}
+                </h3>
                 <p class="text-sm font-light text-gray-700">{{ education.institution }} - {{ education.end_date }}</p>
             </div>
         {% endfor %}

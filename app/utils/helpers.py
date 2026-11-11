@@ -4,6 +4,7 @@ from pathlib import Path
 from ruamel.yaml import YAML, YAMLError
 
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
+PROJECT_DIR = Path(__file__).resolve().parent.parent
 
 
 def load_file(filepath: Path) -> dict:

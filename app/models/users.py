@@ -32,7 +32,7 @@ class User(UserMixin, BaseModel):
     picture: Mapped[str | None] = mapped_column(String(2048))
     lcats: Mapped[str | None] = mapped_column(String(255))
     last_login_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
-    resumes: Mapped[list["Resume"]] = relationship(
+    resume: Mapped["Resume"] = relationship(
         back_populates="user",
         cascade="all, delete-orphan",
     )

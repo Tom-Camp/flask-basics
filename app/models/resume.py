@@ -29,7 +29,7 @@ class Resume(BaseModel):
         active_history=True,
     )
     user_id: Mapped[int] = mapped_column(ForeignKey("users.id"), index=True)
-    user: Mapped["User"] = relationship(back_populates="resumes")
+    user: Mapped["User"] = relationship(back_populates="resume")
     revisions: Mapped[list["ResumeRevisions"]] = relationship(
         back_populates="resume",
         cascade="all, delete-orphan",

@@ -16,8 +16,10 @@ from flask import (
     abort,
 )
 from flask_login import login_required, current_user
+from lcat_calc import load_categories
 from pydantic import ValidationError
 from werkzeug.utils import secure_filename
+from urllib.parse import urlparse
 
 from app.ai.resume_parser import parse_resume_text
 from app.extensions import dbase
@@ -25,10 +27,8 @@ from app.forms.resume_edit_form import ResumeEditForm
 from app.forms.resume_form import ResumeForm
 from app.models.resume import Resume
 from app.models.resume_schema import ResumeData
+from app.services.lcat_service import derive_lcats
 from app.utils.file_parser import extract_text
-from app.utils.helpers import BASE_DIR, load_file
-
-CATEGORIES_FILE = BASE_DIR / "app" / "utils" / "categories.yaml"
 
 
 bp = Blueprint("resume", __name__, url_prefix="/resume")
@@ -53,8 +53,15 @@ def _render_edit(form: ResumeEditForm, resume_id: int):
         "pages/resume_edit.html",
         form=form,
         resume_id=resume_id,
-        job_categories=load_file(CATEGORIES_FILE) or {},
+        job_categories=load_categories(),
     )
+
+
+def safe_back(fallback="main.index"):
+    ref = request.referrer
+    if ref and urlparse(ref).netloc == request.host:
+        return redirect(ref)
+    return redirect(url_for(fallback))
 
 
 @bp.post("/upload")
@@ -109,7 +116,7 @@ def upload_resume():
 @bp.route("/<resume_id>")
 @login_required
 def resume(resume_id: int):
-    resume_data = dbase.session.query(Resume).filter(Resume.id == resume_id).first()
+    resume_data = _get_owned_resume(resume_id)
     if not resume_data:
         abort(404, "Resume not found")
     no_categories: list[str] = []
@@ -159,3 +166,27 @@ def resume_edit_process(resume_id: int):
             flash("Resume updated.", "success")
             return redirect(url_for("resume.resume", resume_id=resume_id))
     return _render_edit(form, resume_id)
+
+
+@bp.route("/lcats/<resume_id>", methods=["GET"])
+@login_required
+def get_lcats(resume_id: int):
+    resume_data = _get_owned_resume(resume_id)
+    resume_obj = ResumeData(**resume_data.raw_data)
+    needs_categories: bool = False
+    for work in resume_obj.work:
+        if not work.categories:
+            flash(
+                f"No categories for {work.position} at {work.employer_name}",
+                "warning",
+            )
+            needs_categories = True
+
+    if needs_categories:
+        return safe_back()
+
+    lcats = derive_lcats(resume=resume_obj)
+    current_user.lcats = ",".join(lcats)
+    dbase.session.commit()
+    flash(f"Found {len(lcats)} LCATs.", "success")
+    return redirect(url_for("user.user_page"))
